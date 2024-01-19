@@ -1,0 +1,788 @@
+@media all and (max-width: 1602px){
+    .home-banner-section{
+    height: 750px;
+    background-position: center bottom;}
+    .vision-banner{height: 650px;}
+    .curriculum-content-box .header-box.col-5 p{font-size: 17px;}
+    }
+    @media all and (max-width: 1440px){
+    .wrapper{
+    padding: 0 100px;
+    }
+    .home-banner-section .text-box h1{font-size: 50px;}
+    .inner-banner.home-banner-section .text-box h1{font-size: 65px;}
+    footer > .wrapper{padding: 0 70px;}
+    .header-box h2{font-size: 50px;padding-bottom: 30px;}
+    .jivo-school-section .header-box h2{font-size: 40px;}
+    .header-box p{font-size: 18px;}
+    ul.icon-list li h5{font-size: 23px;}
+    .header-box h4{margin-bottom: 10px;}
+    .education-model-box h3{font-size: 36px;}
+    ul.recent-news-list li p{font-size: 19px;}
+    .admission-bulletin-section .text-box{padding-right: 0;}
+    ul.recent-news-list li .date span{font-size: 14px;}
+    ul.recent-news-list li .date h6{font-size: 22px;}
+    footer .inner-footer .footer-nav > ul li a{font-size: 16px;}
+    footer .inner-footer h3{font-size: 20px;margin-bottom: 30px;}
+    .vision-img-box .img-box{width: calc(100% / 3);}
+    .vision-img-box .img-box:first-child img, .vision-img-box .img-box:last-child img{height: 450px;object-fit: cover;}
+    .key-project-section .content-box h2{font-size: 35px;}
+    .key-project-section .content-box ul.point-list li{margin-bottom: 15px;}
+    footer .inner-footer .footer-nav{padding-left: 3%;}
+    .admission-tab-section .col-3 .admission-tab-box{padding: 40px 25px 120px 25px;}
+    .admission-tab-box h5{font-size: 23px;}
+    .admission-tab-box > ul li{font-size: 17px;}
+    .curriculum-content-box .header-box h2{font-size: 43px;}
+    .founder-content-section .header-box h3{font-size: 23px;}
+    .header-box p strong{font-size: 17px;}
+    .nep-heading-box .text-box p{font-size: 17px;}
+    .nep-heading-box .text-box h2{font-size: 50px;}
+    .nep-list-box .text h4{font-size: 30px;}
+    .nep-list-box .text p{font-size: 17px;}
+    .admission-content-box .content-box p{font-size: 17px;}
+    .admission-content-box .text-box h2{font-size: 35px;}
+    .admission-content-box .content-box:nth-child(2n) .text-box{padding-left: 50px;}
+    .admission-content-box .content-box:nth-child(2n+1) .text-box{padding-right: 50px;}
+    
+    }
+    @media all and (max-width: 1370px){
+        p{font-size: 17px;}
+    .common-padding{padding: 100px 0;}
+    .home-banner-slider-section .text-box{top: 140px;}
+    .admission-tab-box > ul li:first-child{min-height: 100px;}
+    .home-banner-section{height: 660px;}
+    .hp-banner{height: 660px !important;}
+    .container{padding: 0 50px;width: 85%;}
+    .main-header, header .top-header {padding-left: 50px;padding-right: 50px;}
+    ul.icon-list li h5{width: 60%;}
+    .education-model-box{margin-top: 70px;}
+    .education-model-section{padding-bottom: 150px;}
+    .education-model-box .col-5:nth-child(2){transform: translateY(60px);}
+    .education-info-section .education-info-box .info-box p{font-size: 17px;}
+    .education-info-section .education-info-box .info-box a.btn{margin-top: 10px;}
+    .recent-news-box{padding: 30px 20px;}
+    ul.recent-news-list li .date{min-width: 80px;}
+    .school-magazine-section .img-box {text-align: right;}
+    .school-magazine-section .img-box img{width: 80%;}
+    .school-magazine-section .header-box p{line-height: 1.6;}
+    ul.pdf-list{margin-top: 40px;}
+    .education-model-box img{height: 350px;object-fit: cover;}
+    .education-model-box .col-5 .model-box:first-child{margin-bottom: 40px;display: block;}
+    .awards-box h6{font-size: 24px;}
+    .awards-box p.hl{margin: 35px 0 20px;}
+    .hp-news-section .header-box h2{font-size: 40px;}
+    .jiva-vision-section .text-box{width: 65%;margin-bottom: 150px;}
+    .jiva-vision-section .text-box h2{font-size: 50px;}
+    ul.achive-list li .achive-box p{font-size: 19px;}
+    .header-box h2.lt{font-size: 40px;}
+    .admission-bulletin-section .text-box h3{font-size: 27px;}
+    .curriculum-section .header-box h2{font-size: 45px;}
+    ul.vision-join-list li h2{font-size: 45px;}
+    .vision-join-section{padding: 40px 0;}
+    .curriculum-content-box .container > .flex-box{padding: 100px 0;}
+    .vision-img-box .img-box:first-child img, .vision-img-box .img-box:last-child img{height: 370px;}
+    header .top-header{padding: 7px 50px;}
+    .main-header{padding: 10px 50px;}
+    .nav-listbtn a.or-btn{padding: 16px;}
+    .main-header .nav-list a{font-size: 15px;}
+    .faculty-section .img-box{padding-left: 50px;}
+    .faculty-section .header-box img{margin-top: 40px;}
+    ul.point-list{margin-top: 30px;}
+    .faculty-section .header-box h2.lt{font-size: 40px;}
+    ul.admission-tabs li{padding: 25px 15px;}
+    ul.admission-tabs li img{width: 40%;}
+    ul.admission-tabs li h4{font-size: 27px;}
+    .admission-content-box h3{font-size: 27px;line-height: 1.3;}
+    .icet-section h2{font-size: 50px;}
+    ul.icon-list-2 li img{max-width: 60px;}
+    ul.point-list li{margin-bottom: 10px;padding-left: 25px;}
+    ul.icon-list-2 li h4{padding-left: 10px;font-size: 23px;}
+    ul.btn-box-list li .btn-box h4{font-size: 35px;}
+    ul.pdf-list li a span{font-size: 14px;}
+    .modesty-section{padding: 150px 0;}
+    .hp-news-section .container > .flex-box .col-6,.hp-news-section .container > .flex-box .col-7{padding-right: 70px;}
+    .admission-bulletin-section{padding-top: 50px;}
+    .admission-process-section.st-2 .text-box{padding-left: 70px;}
+    .admission-process-section .text-box h2{margin-bottom: 50px;}
+    .admission-process-section .text-box p{font-size: 17px;}
+    .school-magazine-section .img-box{width: 50%;}
+    .admission-cell-section .container{width: 95%;}
+    ul.info-list li .text-box a,ul.info-list li .text-box p{font-size: 19px;}
+    .curriculum-content-box .header-box.col-5 p{font-size: 17px;}
+    .curriculum-section .header-box h2{font-size: 40px;}
+    .story-section .text-box h2{font-size: 28px;}
+    .key-project-section .content-box h2{font-size: 30px;}
+    ul.point-list li{font-size: 17px;}
+    .header-box p{font-size: 17px;}
+    .admission-tab-box h5{font-size: 20px;}
+    .admission-tab-box > ul li{font-size: 16px;}
+    .nep-list-box .img-box{padding-right: 30px;}
+    .nep-list-box .text h4{font-size: 27px;}
+    ul.nep-list .nep-list-box{padding: 30px 20px;height: 100%;}
+    ul.nep-list{margin: 0 -15px;}
+    ul.nep-list li{padding: 0 15px;}
+    ul.nep-list li:nth-child(-n+4){margin-bottom: 30px;}
+    .nep-social-section > .container > .header-box h2{font-size: 45px;}
+    .nep-social-section > .container > .header-box{margin-bottom: 70px;}
+    .nep-social-box .header-box{margin-bottom: 40px;}
+    .nep-social-box .col-4 .img-box h4{font-size: 30px;}
+    .achievement-box{padding: 30px 15px;}
+    .achievement-box h5{font-size: 28px;}
+    .achievement-section .header-box h2{font-size: 40px;}
+    ul.meet-experts-list li h3{font-size: 25px;}
+    ul.meet-experts-list li p.head{font-size: 17px;margin-bottom: 15px;padding-bottom: 15px;line-height: 1.3;min-height: 65px;}
+    ul.meet-experts-list li p{font-size: 16px;}
+    ul.meet-experts-list li img{margin-bottom: 20px;}
+    .Jiva-vision-missionsec .text-box {
+    width: 100%;
+    margin-bottom: 0;
+    }
+    .Jiva-vision-missionsec .flex-box .vision-imgBox img {
+    width: 100%;
+    height: 100%;
+    }
+    .Jiva-vision-missionsec .flex-box:nth-child(even) {
+    flex-direction: row-reverse;
+    margin-top: 100px;
+    }
+    .achive-section .curriculum-content-box .container > .flex-box {
+    padding: 0 0 100px;
+    }
+    .com-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
+    }
+    @media all and (max-width: 1280px){
+    .awards-box{padding: 0 20px;}
+    footer .inner-footer .footer-nav{padding-left: 2%;}
+    .home-banner-section .text-box h1{font-size: 45px;}
+    .inner-banner.home-banner-section .text-box h1{font-size: 60px;}
+    .admission-tab-section .wrapper > .flex-box{margin: 0 -10px;}
+    .admission-tab-section .col-3{padding: 0 10px;}
+    .admission-tab-section a.btn{margin-top: 20px;}
+    .jiva-vision-section .text-box h2 {
+        font-size: 40px;
+    }
+    }
+    @media all and (max-width: 1030px){
+        .container{width: 90%;}
+    .common-padding{padding: 70px 0;}
+    .home-banner-section .text-box h1{ font-size: 40px; }
+    .inner-banner.home-banner-section .text-box h1{font-size: 55px;}
+    .col-4,.col-5,.col-6{width: 100%;}
+    .wrapper{padding: 0 50px;}
+    .mobile-img{display: block;margin: 30px 0;}
+    .jivo-school-section .col-6{display: none;}
+    ul.icon-list li:nth-child(-n+2){margin-bottom: 30px;}
+    .education-model-box .col-5:nth-child(2){transform: none;margin-top: 50px;}
+    .education-info-section .education-info-box .info-box{width: 95%;margin-top: -50px;}
+    .hp-news-section .container > .flex-box .col-6,.hp-news-section .container > .flex-box .col-7{width: 60%;}
+    .hp-news-section .container > .flex-box .col-3{width: 40%;}
+    .gallery-box .gallery-img,.gallery-box .gallery-img:nth-child(-n+2){margin-bottom: 30px;}
+    .gallery-box .gallery-img:last-child{margin-bottom: 0;}
+    .education-model-box .col-5{width: 70%;margin: 0 auto;}
+    .education-model-section .header-box p{width: 100%;}
+    .school-magazine-section .img-box{display: none;}
+    .school-magazine-section img.mobile-img{width: 50%;}
+    footer .inner-footer .footer-nav{width: 50% !important;}
+    footer .inner-footer .footer-nav:nth-child(-n+2){
+    padding-bottom: 30px; 
+    border-bottom: 1px solid #393637;
+    }
+    footer .inner-footer .footer-nav:nth-child(3){
+    padding-left: 0;
+    border-left: none;
+    padding-top: 30px;
+    }
+    footer .inner-footer .footer-nav:nth-child(4){
+    padding-top: 30px;
+    }
+    .key-project-section.infrastructure-section:nth-child(2n) .content-box{padding-left: 0;}
+    footer .inner-footer .footer-nav{padding-left: 7%;}
+    footer .bootom-footer{justify-content: center;margin-top: 70px;}
+    footer .bootom-footer .left-nav{width: 100%;margin-bottom: 20px;text-align: center;}
+    .jivo-school-section .col-4 img.mobile-img{width: 100%;}
+    .jivo-school-section .col-4{padding-right: 0;}
+    .main-header{position: relative;}
+    .button_container{display:inline-block;position:absolute;top:35%;right:3%;height:27px;width:35px;cursor:pointer;z-index:9;-webkit-transition:opacity .25s ease;transition:opacity .25s ease;}
+    .button_container:hover{opacity:.7;}
+    .button_container.active .top{-webkit-transform:translateY(11px) translateX(0) rotate(45deg);transform:translateY(11px) translateX(0) rotate(45deg);background:#fff;}
+    .button_container.active .middle{opacity:0;background:#FFF;}
+    .button_container.active .bottom{-webkit-transform:translateY(-11px) translateX(0) rotate(-45deg);transform:translateY(-11px) translateX(0) rotate(-45deg);background:#fff;}
+    /* .button_container:hover.button_container span{background-color: #fff;} */
+    .button_container span{background: #c94c18;border:none;height:1px;width:100%;position:absolute;top:0;left:0;-webkit-transition:all .35s ease;transition:all .35s ease;cursor:pointer;}
+    .button_container span:nth-of-type(2){top:8px;}
+    .button_container span:nth-of-type(3){top:16px;}
+    header nav ul li{padding-left:0;}
+    header nav{float:none;}
+    .overlay{position:fixed;background:#c94c18;top:0;left:0;width:100%;height:0%;opacity:0;visibility:hidden;-webkit-transition:opacity .35s, visibility .35s, height .35s;transition:opacity .35s, visibility .35s, height .35s;overflow:hidden;z-index:11;}
+    .overlay.open{opacity:1;visibility:visible;height:100%;z-index: 8;}
+    .overlay.open .nav-list a{-webkit-animation:fadeInRight .5s ease forwards;animation:fadeInRight .5s ease forwards;-webkit-animation-delay:.35s;animation-delay:.35s;opacity: 0;}
+    
+    .overlay nav{position:relative;height:auto;top:40%;-webkit-transform:translateY(-50%);transform:translateY(-50%);text-align:center;}
+    .popup-section .container{padding: 0 15px;}
+    @-webkit-keyframes fadeInRight{0%{opacity:0;}
+    100%{opacity:1;}
+    }
+    @keyframes fadeInRight{0%{opacity:0;}
+    100%{opacity:1;}
+    }
+    .inner-header nav ul li a{font-size: 30px;}
+    .main-header .nav-list li {width: 100%;margin-bottom: 20px;}
+    .main-header .nav-list li a{font-size: 25px; color: #fff; line-height: 1;font-weight: 500;}
+    .main-header .nav-list li:last-child{display: none;}
+    .logo-box img{position: relative;z-index: 1111;}
+    .jiva-vision-section .text-box h2{font-size: 45px;}
+    .header-box h2.lt{font-size: 35px;}
+    ul.achive-list li .achive-box p{font-size: 17px;}
+    .curriculum-content-box .container > .flex-box .curriculum-img{display: none;}
+    .curriculum-content-box .header-box.col-5{padding-left: 0;}
+    .curriculum-box .curriculum-content-box:nth-child(2n) .flex-box .header-box{padding-right: 0;}
+    .curriculum-content-box .header-box.col-5 img.mobile-img{
+    width: 100%;
+    border-radius: 0;
+    max-width: 500px;
+    }
+    .story-section .text-box h2{font-size: 25px;}
+    ul.story-list li h3{font-size: 25px;}
+    .bottom-btn-section ul.btn-list li .btn-box{padding: 35px;}
+    .bottom-btn-section ul.btn-list li .btn-box h3{font-size: 35px;line-height: 1.1;}
+    ul.meet-experts-list li h3{font-size: 24px;margin-bottom: 10px;}
+    ul.meet-experts-list li p.head{font-size: 18px;margin-bottom: 10px;padding-bottom: 10px;}
+    ul.meet-experts-list li p{font-size: 16px;}
+    ul.meet-experts-list{margin-left: -10px;margin-right: -10px;margin-top: 50px;}
+    ul.meet-experts-list li{padding: 0 10px;}
+    .curriculum-content-box .header-box.col-5 p,.header-box p strong{font-size: 18px;}
+    .founder-content-section .header-box h3{font-size: 25px;margin-bottom: 15px;padding-bottom: 15px;}
+    .founder-content-section .header-box h2.bt{margin-bottom: 15px;}
+    .approch-section .container > .flex-box .img-box{display: none;}
+    .approch-section .header-box{padding-left: 0;}
+    .approch-section .header-box .mobile-img{width: 50%;height: 350px;object-fit: cover;}
+    .faculty-section .img-box{padding-left: 0;text-align: left;margin-top: 30px;}
+    .cirriculum-section .header-box{margin-bottom: 50px;}
+    .cirriculum-section ul.point-list{padding-left: 0;margin-top: 40px;}
+    .cirriculum-section .img-box{text-align: center;}
+    .cirriculum-section .header-box p{width: 100%;}
+    .assessment-section .flex-box .text-box .content-box:last-child{margin-top: 40px;}
+    .assessment-section .header-box{margin-bottom: 40px;}
+    .admission-process-section ul.btn-box-list{margin-top: 40px;}
+    .admission-process-section ul.btn-box-list li .btn-box{padding: 30px 25px;}
+    ul.btn-box-list li .btn-box h4{margin-bottom: 20px;}
+    .admission-process-section .header-box{margin-bottom: 40px;}
+    .admission-process-section.st-2 .container > .flex-box .col-5:first-child{display: none;}
+    .admission-process-section.st-2 .text-box{padding-left: 0;}
+    .admission-process-section.st-2 .text-box img.mobile-img{height: 450px;object-fit: cover;width: 60%;}
+    .admission-process-section.st-3 .text-box{padding-right: 0;}
+    .admission-process-section.st-3 .img-box img{height: 400px;object-fit: cover;margin-top: 30px;}
+     .admission-process-section.st-4 .container > .flex-box{flex-direction: column-reverse;}
+     .admission-process-section.st-4 .text-box{padding-left: 0;}
+     ul.info-list li{padding-bottom: 30px;margin-bottom: 30px;}
+     .admission-cell-section .col-6 form{padding: 40px 30px;}
+     .admission-cell-section .col-6 form .col-5{width: 50%;}
+     .admission-cell-section .col-6 form input,.admission-cell-section .col-6 form select{margin-bottom: 20px;padding-bottom: 10px;}
+     ul.info-list{margin-bottom: 50px;}
+     .key-project-section .container > .flex-box .col-6{margin-top: 30px;}
+     .key-project-section .img-box img{height: 450px;object-fit: cover;}
+     .key-project-section:nth-child(even) .content-box{padding-left: 0;padding-right: 50px;}
+     .timeline-section .header-box{margin-bottom: 50px;}
+     .timeline-section .timeline-box .col-5 h3{font-size: 40px;}
+     .timeline-section .timeline-box .col-5.img-box{margin-top: 30px;}
+     .timeline-section .timeline-box{margin-bottom: 50px;}
+     .timeline-section .timeline-box ul.point-list{margin-top: 10px;}
+     .timeline-section{padding: 100px 0;}
+     .main-header .nav-list li ul.dropdown{display: none !important;}
+     .main-header .nav-list li .plusminus{
+         position: absolute;
+         right: 40px;
+         top: -2px;
+         font-size: 30px;
+    color: #fff;
+    line-height: 1;
+    font-weight: 300;
+    cursor: pointer;
+    font-family: 'roboto';
+     }
+     .main-header .nav-list li ul.dropdown-mb{display: none;width: 80%;margin: 0 auto;margin-top: 20px;}
+     .main-header .nav-list li ul.dropdown-mb li{
+         margin-bottom: 7px;
+         border-bottom: 1px solid #b6b6b6;
+        padding-bottom: 7px;
+     }
+     .main-header .nav-list li ul.dropdown-mb li a{font-size: 20px;}
+     .admission-tab-section .col-3{width: 50%;}
+     .admission-tab-section .wrapper > .flex-box .col-3:last-child{margin-top: 30px;}
+     .admission-tab-section .wrapper > .flex-box{justify-content: center;}
+     .main-header .nav-list li ul.dropdown-mb li:last-child{display: block !important;width: 100%;}
+     .education-model-box .col-5 .model-box{display: flex;flex-wrap: wrap}
+     .education-model-box .col-5 .model-box h3{order: 0;margin-bottom: 15px;}
+     .education-model-box .col-5 .model-box img{order: 1;margin-bottom: 30px;}
+     .education-model-box .col-5 .model-box p{order: 2;}
+     .education-model-box .col-5 .model-box{justify-content: center;}
+     .hp-news-section .container > .flex-box .col-6, .hp-news-section .container > .flex-box .col-7{padding-left: 40px;}
+     .hp-news-section .gallery-box{margin: 0 -5px;margin-top: 60px;}
+     .gallery-box .gallery-img{padding: 0 5px;}
+     ul.nep-list{margin: 0;}
+     ul.nep-list li{width: 100%;padding: 0;margin-bottom: 30px !important;}
+     .nep-list-box .img-box{padding-right: 0;}
+     .nep-heading-box .text-box p{width: 100%;}
+     .nep-heading-box .text-box h2{font-size: 42px;}
+     .nep-heading-box .text-box{margin-bottom: 60px;}
+     .nep-social-section > .container > .header-box h2{font-size: 40px;}
+     .nep-social-box .col-4 .img-box h4{font-size: 25px;}
+     .nep-social-box .col-4:first-child .img-box h4{margin-bottom: 20px;}
+     .nep-social-box .col-4:last-child .img-box h4{margin-top: 20px;}
+     .nep-list-box .text .mobile-img{display: none;}
+     .infrastructure-text-section{padding: 100px 0 70px;}
+     .infrastructure-text-section h2{width: 100%;font-size: 25px;}
+     ul.achievement-list li{width: 50%;}
+     ul.achievement-list li:nth-child(-n+2){margin-bottom: 30px;}
+     .achievement-box h5{margin-top: 20px;padding-top: 20px;}
+     .admission-tab-section .col-3{width: 25%;}
+    .Jiva-vision-missionsec .flex-box .vision-imgBox {
+    padding-right: 0;
+    margin-bottom: 50px;
+    }
+    .Jiva-vision-missionsec .flex-box:nth-child(even) .vision-imgBox {
+    padding-left: 0;
+    padding-right: 0;
+    }
+    }
+    @media all and (max-width: 925px){
+    .education-info-section .education-info-box{width: calc(100% / 2);}
+    .education-info-section .education-info-box:last-child{margin-top: 50px;}
+    .education-info-section .flex-box{justify-content: center;}
+    .curriculum-content-box .container > .flex-box{padding: 70px 0;}
+    .bottom-btn-section ul.btn-list li .btn-box h3{font-size: 28px;}
+    ul.meet-experts-list li{width: 50%;}
+    ul.meet-experts-list li:nth-child(-n+2){margin-bottom: 30px;}
+    ul.meet-experts-list li img{margin-bottom: 20px;}
+    .faculty-section .img-box img{height: 400px;object-fit: cover;}
+    .admission-tab-section .container > .flex-box .col-3{width: 100%;}
+    ul.admission-tabs li{max-width: none;width: 30%;}
+    ul.admission-tabs{display: flex;flex-wrap: wrap;justify-content: space-between;}
+    .col-7.admission-content-box{width: 100%;margin-top: 30px;}
+    .icet-section .flex-box{justify-content: center;text-align: center;}
+    .icet-section .flex-box h2{width: 100%;padding-bottom: 20px;margin-bottom: 20px;}
+    .icet-section .flex-box h2::after{
+        right: auto;
+        left: 50%;
+        top: auto;
+        bottom: 0;
+        transform: translateX(-50%)
+    }
+    .assessment-section .flex-box{margin: 0;}
+    .assessment-section .flex-box .text-box{padding: 0;}
+    .admission-banner.home-banner-section .text-box h1{width: 100%;}
+    .admission-bulletin-section .text-box{padding-right: 30px;}
+    .admission-bulletin-section .text-box h3{font-size: 23px;}
+    ul.btn-box-list li .btn-box h4{width: 100%;}
+    .admission-process-section .text-box h2{margin-bottom: 40px;}
+    .admission-process-section .text-box h2::after{
+        width: 60px;
+        height: 60px;
+    }
+    .admission-process-section .text-box h3{font-size: 32px;}
+    .admission-process-section .text-box h2{font-size: 25px;}
+    .admission-process-section.st-3 .text-box img{margin-top: 40px;}
+    .admission-process-section .header-box h2{font-size: 37px;}
+    .admission-cell-section .header-box h2{font-size: 40px;}
+    .home-banner-slider-section .text-box{left: 50px;top: 170px;}
+    .home-banner-slider-section .text-box h1{width: 70%;}
+    .achievement-tab-section .col-7{width: 75%;}
+    ul.admission-tabs li{text-align: center;width: 100%;}
+    ul.admission-tabs li img{width: auto;margin: 0 auto;}
+    .admission-tab-section ul.admission-tabs{background-color: transparent;padding: 0;width: 100%;display: flex;}
+    .admission-tab-section ul.admission-tabs li{background-color: #c94c18;width: 30%;padding: 30px 10px;}
+    .admission-tab-section .col-3{width: 100%;}
+    .admission-content-box ul.catagories-list-2{margin-bottom: 50px;}
+    .achievement-tab-section .col-7{width: 100%;margin-top: 80px;}
+    .admission-content-box .content-box:nth-child(2n) .text-box{padding-left: 0;}
+    .admission-content-box .content-box:nth-child(2n+1) .text-box{padding-right: 0;}
+    .admission-content-box .content-box .text-box{margin-bottom: 30px;}
+    .com-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    }
+    }
+    @media all and (max-width: 768px){
+        .container{width: 100%;}
+    ul.recent-news-list li .date{min-width: 60px;}
+    ul.recent-news-list li .date h6{font-size: 20px;}
+    ul.recent-news-list li .date span{font-size: 15px;}
+    ul.recent-news-list li p{width: 65%;font-size: 20px;}
+    .hp-news-section .gallery-box{margin-left: 0;margin-right: 0;}
+    .gallery-box .gallery-img{padding: 0;}
+    header .top-header {
+    justify-content: center;
+    }
+    .jiva-vision-section .text-box{width: 100%;margin-bottom: 100px;}
+    .Jiva-vision-missionsec .text-box {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .jiva-vision-section .text-box h4::after {left: 150px;}
+    .jiva-vision-section .text-box h2{font-size: 37px;}
+    .vision-img-box .img-box:first-child img, .vision-img-box .img-box:last-child img{height: 100%;}
+    ul.achive-list li{width: 50%;}
+    ul.achive-list{justify-content: center;}
+    ul.achive-list li:last-child{margin-top: 25px;}
+    ul.achive-list li:first-child{width: 100%;}
+    ul.achive-list li .achive-box{padding: 25px;}
+    ul.vision-join-list li h2{font-size: 30px;}
+    ul.vision-join-list li a.btn{
+    padding: 15px 0;
+    margin-top: 20px;
+    }
+    .vision-img-box{margin: 0;}
+    ul.admission-tabs li{max-width: none;width: 30%;}
+    .key-project-section .content-box{padding-right: 0 !important;}
+    .admission-tab-box h3{margin-bottom: 15px;padding-bottom: 10px;}
+    .admission-tab-box h5{margin-bottom: 15px;}
+    
+    }
+    @media all and (max-width: 500px){
+    .wrapper{padding: 0 20px;}
+    p{font-size: 16px;}
+    .header-box{text-align: center;}
+    .container{padding: 0 20px;width: 100%;}
+    /* .hp-banner{background: url(../img/mobile-hp-banner.jpg) no-repeat center;} */
+    .home-banner-section{
+    background-size: cover;
+    align-items: center;
+    padding-top: 80px;
+    }
+    .admission-tab-box > ul li:first-child{min-height: auto;}
+    .home-banner-slider-section .text-box{transform: translateX(-50%);left: 50%;width: 100%;top: 320px;}
+    .hp-banner-box-1{background-position-x: 70%;}
+    .hp-banner-box-3{background-position-x: 70%;}
+    .home-banner-section .text-box{text-align: center;}
+    .home-banner-section .text-box h1{width: 100%;text-align: center;font-size: 35px;margin-bottom: 20px;}
+    .header-box h2{font-size: 35px !important;margin-bottom: 15px;padding-bottom: 15px;}
+    .header-box h4{font-size: 11px;}
+    .header-box p{font-size: 16px;}
+    .header-box p strong{font-size: 17px;}
+    .curriculum-section .header-box h2 BR{display: none;}
+    .home-banner-slider-section{padding-top: 0;}
+    .jivo-school-section .header-box h2::after{
+    left: 50%;
+    transform: translateX(-50%);   
+    }
+    ul.icon-list li{text-align: center;}
+    ul.icon-list li h5{
+    width: 100%;
+    margin-top: 10px;
+    }
+    ul.icon-list li:nth-child(1),ul.icon-list li:nth-child(3){border-right: 1px solid #e5e5e5;}
+    ul.icon-list li:nth-child(1),ul.icon-list li:nth-child(2){border-bottom: 1px solid #e5e5e5;padding-bottom: 20px;}
+    .key-project-section .container > .flex-box .col-6{margin-top: 20px;}
+    ul.icon-list li:nth-child(-n+2){margin-bottom: 0;}
+    ul.icon-list li:nth-child(3),ul.icon-list li:nth-child(4){padding-top: 20px;}
+    .education-model-box .col-5{width: 100%;}
+    .education-info-section .education-info-box{width: 100%;margin-bottom: 40px;}
+    .education-info-section .education-info-box:last-child{margin-top: 0;}
+    .awards-slider .slick-arrow.slick-prev{left: 30px;}
+    .awards-slider .slick-arrow.slick-next{right: 30px;}
+    .hp-news-section{padding: 0 !important;}
+    .hp-news-section .container{padding: 0;}
+    .hp-news-section .container > .flex-box .col-3{width: 100%;order: 0;position:static;}
+    .hp-news-section .container > .flex-box .col-6,.hp-news-section .container > .flex-box .col-7,.hp-news-section .container > .flex-box .col-7{width: 100%;order: 1;padding: 0 20px;margin: 70px 0;text-align: center;}
+    .hp-news-section .header-box{text-align: left;}
+    .hp-news-section .container > .flex-box .col-6,.hp-news-section .container > .flex-box .col-7 .header-box{text-align: center;}
+    ul.recent-news-list{margin-top: 40px;}
+    ul.recent-news-list li p{width: 70%;}
+    .hp-news-section .container > .flex-box .col-6 .header-box h2::after,.hp-news-section .container > .flex-box .col-7 .header-box h2::after{left: 50%;transform: translateX(-50%);}
+    .hp-news-section .header-box p{width: 100%;}
+    .hp-news-section .gallery-box{justify-content: center;text-align: left;}
+    .education-info-section .education-info-box .info-box a.btn{padding: 15px 0;}
+    a.btn{padding: 15px 0;}
+    .awards-box .awards-img-box img{max-width: none;}
+    .school-magazine-section .header-box h2::after{left: 50%;transform: translateX(-50%);}
+    .school-magazine-section .header-box p{text-align: center;}
+    .school-magazine-section img.mobile-img{margin: 0 auto;margin-top: 50px;}
+    footer > .wrapper{padding: 0 20px;}
+    footer .inner-footer .footer-nav{width: 100% !important;border: none !important;padding-left: 0 !important;margin-bottom: 30px;padding-bottom: 0 !important;border-bottom: 1px solid #393637 !important;padding-bottom: 30px !important;}
+    footer .inner-footer .footer-nav:last-child{border-bottom: none !important;padding-bottom: 0 !important;}
+    ul.pdf-list li{padding: 0 5px;}
+    ul.pdf-list{margin-left: 0;margin-right: 0;}
+    .education-model-box{margin-left: 0;margin-right: 0;}
+    .education-model-box .col-5{padding: 0;}
+    ul.pdf-list li a img{width: 35%;}
+    ul.pdf-list li a span{font-size: 14px;}
+    ul.pdf-list li a{padding: 15px 5px;}
+    ul.pdf-list li a::after{top: 7px;right: 7px;}
+    footer .inner-footer .footer-nav:last-child ul li a{padding-left: 50px;}
+    footer .inner-footer{padding-top: 70px;}
+    footer .inner-footer .footer-nav:nth-child(3),footer .inner-footer .footer-nav:nth-child(4){padding-top: 0;}
+    footer .bootom-footer{margin-top: 40px;padding-bottom: 40px;border-top: 1px solid #393637;padding-top: 40px;}
+    ul.icon-list li h5{width: 70%;}
+    ul.icon-list li img{padding-right: 0;display: block;margin: 0 auto;}
+    ul.icon-list li h5{min-height: 55px;}
+    footer .inner-footer .footer-nav:nth-child(3) ul.flex-box li{width: 100%;}
+    footer .inner-footer .footer-nav > ul li{margin-bottom: 15px;}
+    footer .inner-footer h3 span.plusminus{
+    float: right;
+    display: none;/*display: block;*/
+    font-family: 'roboto';
+    color: #666464;
+    }
+    .plusminus{display: block;}
+    .click-element{display: block;/*display: none;*/ margin-top: 30px;}
+    footer .inner-footer h3{margin-bottom: 0;cursor: pointer;}
+    footer .inner-footer .footer-nav:first-child .click-element{display: block;}
+    footer .bootom-footer .left-nav p:first-child{padding-right: 0;margin-right: 0;border-right: none;}
+    .main-header, header .top-header {padding-left: 20px;padding-right: 20px;}
+    .jiva-vision-section .text-box h2{font-size: 30px;}
+    .vision-img-box .img-box:first-child img, .vision-img-box .img-box:last-child img{display: none;}
+    .vision-img-box .img-box{width: 100%;}
+    .jiva-vision-section .text-box{margin-bottom: 50px;}
+    .Jiva-vision-missionsec .text-box {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .Jiva-vision-missionsec .flex-box:nth-child(even) {
+        flex-direction: row-reverse;
+        margin-top: 50px;
+    }
+    .achive-section .header-box h2.lt::after{
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+    ul.achive-list{
+        margin: 0;}
+    ul.achive-list li{width: 100%;margin-bottom: 15px !important;}
+    ul.achive-list li:last-child{margin: 0;}
+    .curriculum-content-box .header-box.col-5 img.mobile-img{height: 360px;object-fit: cover;}
+    ul.achive-list li .achive-box{text-align: center;}
+    .curriculum-content-box .header-box.col-5 img{margin-bottom: 15px;}
+    .curriculum-content-box .header-box.col-5 p{font-size: 17px;}
+    .curriculum-content-box .header-box.col-5 p a{display: inline-block;font-size: 16px;}
+    .curriculum-content-box .header-box h2{line-height: 1.1;}
+    ul.vision-join-list li{width: 100%;}
+    ul.vision-join-list li:last-child{margin-top: 80px;}
+    ul.vision-join-list::after{height: 1px;width: 100%;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+    .curriculum-content-box .header-box.col-5 img{max-width: 60px;}
+    .home-banner-section .text-box h1{font-size: 50px;}
+    .inner-banner.home-banner-section .text-box h1{font-size: 55px;}
+    .inner-banner{height: 370px;}
+    ul.story-list li{width: 100%;margin-bottom: 25px;}
+    ul.story-list li:last-child{margin-bottom: 0;}
+    ul.story-list li:nth-child(2){border:none;border-top: 1px solid #e8e1d1;border-bottom: 1px solid #e8e1d1;padding: 30px 0;}
+    .story-section.common-padding{padding-bottom: 0;}
+    .meet-experts-section .header-box h2::after{left: 50%;transform: translateX(-50%);}
+    ul.meet-experts-list li{width: 100%;text-align: center;margin-bottom: 35px !important;}
+    ul.meet-experts-list li h3{margin-bottom: 5px;}
+    ul.meet-experts-list li p.head::after{left: 50%;transform: translateX(-50%);}
+    ul.meet-experts-list li img{margin-bottom: 10px;}
+    ul.meet-experts-list li:last-child{margin-bottom: 0 !important;}
+    .bottom-btn-section ul.btn-list{margin: 0;}
+    .bottom-btn-section ul.btn-list li{width: 100%;padding: 0;}
+    .bottom-btn-section ul.btn-list li:last-child{margin-top: 20px;}
+    .approch-section .header-box .mobile-img{width: 100%;}
+    .icet-section .flex-box h2{font-size: 30px;}
+    ul.point-list{text-align: left;}
+    .faculty-section .header-box{text-align: left;}
+    .approch-section .header-box{text-align: left;}
+    .approch-section{margin-top: 70px;}
+    ul.icon-list-2 li{width: 100%;margin-bottom: 20px !important;}
+    ul.icon-list-2 li:last-child{margin-bottom: 0 !important;}
+    ul.icon-list-2{margin-top: 40px;}
+    ul.admission-tabs{
+    display: flex;
+    width: auto;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    flex-wrap: nowrap; 
+    padding-bottom: 40px;
+    }
+    ul.admission-tabs li{
+    width: 80%;
+    min-width: 300px;
+    max-width: 300px;
+    padding: 20px;
+    margin: 0 10px;
+    white-space: normal;
+    }
+    .assessment-section .header-box{margin-bottom: 0;}
+    .admission-content-box h3{font-size: 24px;}
+    .assessment-section .flex-box .text-box .content-box{padding: 25px 10px 25px 20px;}
+    ul.point-list li{padding-left: 18px;}
+    ul.point-list li::after{width: 7px;height: 7px;}
+    ul.point-list li{font-size: 16px;}
+    .main-header .nav-list li{padding-right: 0;}
+    .admission-banner{background-size: 900px;margin-bottom: 40px;}
+    .admission-banner.home-banner-section .text-box h1{font-size: 42px;}
+    .admission-bulletin-section .text-box{padding-right: 0;}
+    .admission-process-section .text-box{padding-right: 0;}
+    .admission-process-section ul.btn-box-list li{width: 100%;padding: 0;}
+    .admission-process-section ul.btn-box-list{margin: 0;margin-top: 40px;}
+    .admission-process-section ul.btn-box-list li:last-child{margin-top: 30px;}
+    ul.btn-box-list li .btn-box h4{width: 100%;font-size: 25px;}
+    .admission-process-section ul.btn-box-list li .btn-box{padding: 20px;}
+    ul.btn-box-list li .btn-box a{width: 35px;height: 35px;}
+    .admission-process-section.st-2 .text-box img.mobile-img{width: 100%;}
+    .admission-process-section .text-box p{font-size: 18px;line-height: 1.5;}
+    .admission-process-section.st-2 ul.icon-list-2 li p{font-size: 17px;line-height: 1.5;width: 80%;}
+    .admission-process-section .text-box h2{margin-top: 0;margin-left: 20px;}
+    .admission-cell-section .col-4{padding-right: 0;}
+    ul.info-list li img{margin-bottom: 15px;}
+    .admission-cell-section .col-6 form{padding: 30px 15px;}
+    ul.info-list li .text-box p,ul.info-list li .text-box a{font-size: 16px;}
+    .admission-cell-section .header-box{margin-bottom: 40px;}
+    .admission-cell-section .col-6 form .col-5{width: 100%;}
+    .admission-cell-section .col-6 form button.btn{margin-top: 20px;padding: 15px 0;}
+    .admission-cell-section .col-6 form input{font-size: 16px;}
+    .home-banner-section{align-items: flex-start;}
+    .inner-banner{align-items: center;padding-top: 30px;}
+    .inner-banner.home-banner-section .text-box h1{font-size: 45px;}
+    .key-project-section.st1{padding-top: 20px;}
+    .key-project-section .content-box h2{font-size: 28px;}
+    .key-project-section .content-box h4{font-size: 24px;}
+    .key-project-section .content-box ul.point-list{margin-top: 10px;}
+    .key-project-section .content-box ul.point-list li{margin-bottom: 10px;}
+    .key-project-section .img-box img{padding: 0 2px;}
+    .key-project-section .img-box{margin-right: -2px;margin-left: -2px;}
+    .modesty-section .hindi-img-box img{width: 100%;}
+    .modesty-section{padding: 70px 0;}
+    .modesty-section h5{width: 100%;font-size: 18px;}
+    .modesty-section::after{top: -510px;left: 55%;}
+    .modesty-section::before{top: 280px;left: -35%;}
+    .timeline-section .timeline-box .col-5:first-child{padding-right: 0;}
+    .timeline-section{padding: 70px 0;}
+    .key-project-section .img-box img{height: 350px;}
+    ul.pdf-list li{width: 50%;}
+    ul.pdf-list li:last-child{margin-top: 10px;}
+    ul.pdf-list{justify-content: center !important;}
+    .education-model-box h3{font-size: 28px;}
+    ul.pdf-list li a img {width: 25%;}
+    ul.pdf-list li a span{font-size: 12px;min-height: 45px;}
+    .education-info-section .education-info-box .info-box p{min-height: auto;}
+    .logo-box img{width: 100px;}
+    .button_container{top: 37%;}
+    .admission-tab-section .wrapper > .flex-box{margin: 0;}
+    .admission-tab-section .wrapper > .flex-box .col-3{padding: 0;width: 100%;margin-bottom: 30px;}
+    .admission-tab-section .wrapper > .flex-box .col-3:last-child{margin-top: 0;margin-bottom: 0;}
+    ul.meet-experts-list li{display: flex;flex-wrap: wrap;justify-content: center;}
+    ul.meet-experts-list li h3{order: 0;width: 100%;}
+    ul.meet-experts-list li p.head{order: 1;width: 100%;}
+    ul.meet-experts-list li img{order: 2;}
+    ul.meet-experts-list li p{order: 3;width: 100%;}
+    .jivaschool-map .secheader-grp h2{font-size: 35px;}
+    .admission-tab-section .col-3 .admission-tab-box .btn-box{position: static;transform: none;}
+    .gallery-box .gallery-img h6{font-size: 18px;}
+    .admission-cell-section .col-6 form select{margin-bottom: 20px;padding-bottom: 10px;font-size: 16px;}
+    .gallery-box .gallery-img{width: 100%;}
+    .nep-heading-box .text-box h2{font-size: 35px;}
+    .nep-list-box .text .mobile-img{display: block;margin: 15px 0;width: 150px;height: 100px;object-fit: contain;}
+    .nep-list-box .img-box{display: none;}
+    .nep-list-box .text{width: 100%;}
+    .nep-social-box .col-4{width: 100%;}
+    .nep-social-box .header-box{text-align: left;}
+    .nep-social-box .col-4:last-child .img-box{margin-top: 30px;}
+    .nep-social-box .col-4:last-child .img-box{display: flex;flex-wrap: wrap;flex-direction: column-reverse;}
+    .nep-social-box .col-4:last-child .img-box h4{margin: 20px 0 20px 0;}
+    .nep-social-section.step-2{padding: 70px 0;}
+    .nep-social-section.step-3{padding: 70px 0;}
+    .st1.infrastructure-section{padding-top: 70px;}
+    .infrastructure-section ul.catagories-list{margin-bottom: 50px;}
+    .infrastructure-section ul.catagories-list li h5{font-size: 15px;padding: 7px 15px;}
+    .bottom-btn-section ul.btn-list li .btn-box a{width: 30px;height: 30px;}
+    .admission-content-box ul.catagories-list-2{
+        display: flex;
+        width: auto;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+        -ms-overflow-style: none;
+        overflow: -moz-scrollbars-none;
+        flex-wrap: nowrap;
+        padding-bottom: 20px;}
+    .admission-tab-section ul.admission-tabs{padding-bottom: 20px;}
+    .admission-content-box .content-box{margin-bottom: 40px;}
+    ul.achievement-list{margin: 0;margin-top: 50px;justify-content: center;}
+    ul.achievement-list li{width: 70%;padding: 0;}
+    .achievement-section .header-box h2{font-size: 30px !important;}
+    .achievement-section .header-box h2 br{display: none;}
+    .achievement-box img{width: 55px;height: 55px;}
+    ul.achievement-list li:nth-child(-n+6){margin-bottom: 15px;}
+    .admission-content-box .text-box h2{font-size: 27px;}
+    .hlisticwllbng-banner-sec .flex-box, .skllexcllnce-banner-sec .flex-box{min-height: 370px;}
+    .curriculum-section .header-box h2{text-align: left;}
+    .curriculum-section .header-box h2::after {
+        left: 0;
+        transform: none;
+    }
+    .header-jobDetail .container{width: 100% !important;}
+    .job-openingHeadingBox h1{text-align: center;}
+    .jiva-vision-section::before{display: none;}
+    .header-jobDetail .btn-theme a.btn{margin: 0 auto;}
+    .education-model-box .col-5 .model-box h3{margin-top: 0;}
+    .education-model-box .col-5:nth-child(2){margin-top: 0;}
+    .education-model-box .col-5 .model-box:first-child{margin-bottom: 0;}
+    .education-model-box .col-5 a:first-child{margin-bottom: 0;}
+    .education-model-box .col-5 a .model-box{margin-bottom: 60px !important;}
+    .education-model-section{padding-bottom: 0;}
+    .faq-box-list strong {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    }
+    .faq-box-list h4 strong, .faq-box-list p strong, .faq-box-list h4 {
+    font-size: 26px;
+    padding-right: 0;
+    }
+    .faq-box-list h4, .faq-box-list .faq-list p{
+    padding-left: 70px;
+    }
+    .admission-cell-section .button-center {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    }
+    .admission-cell-section .button-center .btn {
+    float: none !important;
+    }
+    }
+    @media all and (max-width: 425px){
+    .awards-box{padding: 0 10px;}
+    .awards-box .awards-img-box{padding: 15px;border: 15px solid #393a3a;}
+    .recent-news-box{padding: 70px 20px;}
+    ul.icon-list li img{min-width: 50px;}
+    .home-banner-section .text-box h1{font-size: 29px;}
+    .admission-tab-section .col-3 .admission-tab-box{padding: 30px 15px;}
+    .admission-tab-box h3{font-size: 25px;}
+    .admission-tab-box h5{font-size: 21px;}
+    .admission-tab-box > ul li{font-size: 16px;}
+    .admission-brouchers .broucher-content h2{font-size: 35px;line-height: 1.2;}
+    .admission-leadership{margin-bottom: 20px;}
+    .contact-detail > .contact-box h3{font-size: 25px;line-height: 1.2;}
+    .contactform-content p{font-size: 17px;}
+    .hlisticwllbng-banner-sec, .skllexcllnce-banner-sec{text-align: center;}
+    .pagecntnr h1{font-size: 37px;}
+    .pagecntnr h4{font-size: 21px;}
+    .infrastructure-text-section h2{font-size: 23px;}
+    .admission-cell-section .button-center {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    }
+    .admission-cell-section .button-center .btn {
+    float: none !important;
+    }
+    
+    }
+    @media all and (max-width: 360px){
+    .home-banner-section .text-box h1{font-size: 28px;}
+    }
+    
+    
+    @media (min-width: 320px) and (max-width: 540px){
+    
+    .inner-banner{
+        height:200px;
+    }
+    
+    }

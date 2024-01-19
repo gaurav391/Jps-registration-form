@@ -1,0 +1,1731 @@
+/* Stying */
+@import url("//fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap"); @import url("//fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"); /**/
+/* Image */
+.pagecntnr {
+    color: #919191;
+    font-family: "Roboto", arial;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.pagecntnr h1, .pagecntnr h2, .pagecntnr h3, .pagecntnr h4, .pagecntnr h5, .pagecntnr h6 {
+    color: #333333;
+    font-family: 'Cormorant', arial;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.pagecntnr h1 {
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.pagecntnr h2 {
+    color: #c94c18;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.pagecntnr h3 {
+    color: #c94c18;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.pagecntnr h4 {
+    color: #c94c18;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.pagecntnr h5 {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.pagecntnr h6 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.pagecntnr p {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0 0 16px;
+}
+
+.pagecntnr img {
+    max-width: 100%;
+}
+
+.pagecntnr .container {
+    width: 100%;
+    max-width: 1360px;
+}
+
+.lightgray {
+    background-color: #f8f8f8;
+}
+
+.creamgray {
+    background-color: #e8e1d1;
+}
+
+.trnprtbgbrn {
+    color: #c94c18;
+    font-family: 'roboto', arial;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.4;
+    text-transform: uppercase;
+    border: 1px solid #c94c18;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
+    padding: 15px 25px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 0 0;
+}
+
+.trnprtbgbrn:hover {
+    color: #ffffff;
+    background-color: #c94c18;
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    overflow: hidden;
+}
+
+@keyframes downarrowbounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Banner Section */
+.hlisticwllbng-banner-sec, .skllexcllnce-banner-sec {
+    padding: 75px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+}
+
+.hlisticwllbng-banner-sec .downarrow, .skllexcllnce-banner-sec .downarrow {
+    cursor: pointer;
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100px;
+    height: 45px;
+    z-index: 2;
+    background-image: url("../img/bannerarrow-icon.png");
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position: center center;
+    -moz-animation: downarrowbounce 2s infinite;
+    -webkit-animation: downarrowbounce 2s infinite;
+    animation: downarrowbounce 2s infinite;
+}
+
+.hlisticwllbng-banner-sec .flex-box, .skllexcllnce-banner-sec .flex-box {
+    display: flex;
+    align-items: center;
+    min-height: 665px;
+}
+
+.hlisticwllbng-banner-sec .imgclmn, .skllexcllnce-banner-sec .imgclmn {
+    width: 45%;
+}
+
+.hlisticwllbng-banner-sec .cntntclmn, .skllexcllnce-banner-sec .cntntclmn {
+    width: 55%;
+}
+
+.hlisticwllbng-banner-sec .imggrp img, .skllexcllnce-banner-sec .imggrp img {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.hlisticwllbng-banner-sec .cntntgrp, .skllexcllnce-banner-sec .cntntgrp {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.hlisticwllbng-banner-sec .cntntgrp img.hinditext, .skllexcllnce-banner-sec .cntntgrp img.hinditext {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hlisticwllbng-banner-sec .cntntgrp > *:first-child, .skllexcllnce-banner-sec .cntntgrp > *:first-child {
+    margin-top: 0 !important;
+}
+
+.hlisticwllbng-banner-sec .cntntgrp > *:last-child, .skllexcllnce-banner-sec .cntntgrp > *:last-child {
+    margin-top: 0 !important;
+}
+
+/* Type of Education List Section */
+.typeofedulist-sec {
+    padding: 100px 0;
+}
+
+.typeofedulist-sec .secheader-grp {
+    text-align: center;
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 30px;
+}
+
+ul.typeofedulist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.typeofedulist > li {
+    width: 50%;
+    max-width: 419px;
+    padding: 0 23px;
+    margin: 20px 0;
+}
+
+ul.typeofedulist > li > a {
+    display: block;
+    padding: 55px 30px;
+    text-align: center;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+ul.typeofedulist > li > a > img {
+    display: block;
+    margin: 15px auto;
+}
+
+ul.typeofedulist > li > a:hover {
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+ul.typeofedulist > li h4, ul.typeofedulist > li .h4 {
+    margin: 0;
+    padding: 5px 0 0;
+}
+
+ul.typeofedulist > li h4:before, ul.typeofedulist > li .h4:before {
+    content: "";
+    display: block;
+    margin: 15px auto;
+    width: 32px;
+    height: 2px;
+    background-color: #c94c18;
+}
+
+/**/
+.holisticwellbeing-msg-sec {
+    color: #333333;
+    padding: 165px 0;
+}
+
+.holisticwellbeing-msg-sec .cntntgrp {
+    width: 100%;
+    max-width: 774px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.holisticwellbeing-msg-sec .cntntgrp h5, .holisticwellbeing-msg-sec .cntntgrp .h5 {
+    line-height: 1.5;
+}
+
+.holisticwellbeing-msg-sec .cntntgrp strong {
+    font-weight: bold;
+}
+
+.holisticwellbeing-msg-sec .cntntgrp > *:first-child {
+    margin-top: 0 !important;
+}
+
+.holisticwellbeing-msg-sec .cntntgrp > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+/**/
+.ayur-classesactivities-sec, .indiaanactivities-sec, .hwsetwocoleq-secwrap {
+    padding: 110px 0;
+}
+
+.ayur-classesactivities-sec .container, .indiaanactivities-sec .container, .hwsetwocoleq-secwrap .container {
+    width: 100%;
+    max-width: 1190px;
+}
+
+.ayur-classesactivities-sec .secheader-grp, .indiaanactivities-sec .secheader-grp, .hwsetwocoleq-secwrap .secheader-grp {
+    color: #919191;
+    font-weight: normal;
+    line-height: 1.8;
+    text-align: center;
+    width: 100%;
+    max-width: 815px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 5px;
+}
+
+.ayur-classesactivities-sec .secheader-grp h1:first-child, .ayur-classesactivities-sec .secheader-grp h2:first-child, .ayur-classesactivities-sec .secheader-grp h3:first-child, .ayur-classesactivities-sec .secheader-grp h4:first-child, .ayur-classesactivities-sec .secheader-grp h5:first-child, .ayur-classesactivities-sec .secheader-grp h6:first-child, .indiaanactivities-sec .secheader-grp h1:first-child, .indiaanactivities-sec .secheader-grp h2:first-child, .indiaanactivities-sec .secheader-grp h3:first-child, .indiaanactivities-sec .secheader-grp h4:first-child, .indiaanactivities-sec .secheader-grp h5:first-child, .indiaanactivities-sec .secheader-grp h6:first-child, .hwsetwocoleq-secwrap .secheader-grp h1:first-child, .hwsetwocoleq-secwrap .secheader-grp h2:first-child, .hwsetwocoleq-secwrap .secheader-grp h3:first-child, .hwsetwocoleq-secwrap .secheader-grp h4:first-child, .hwsetwocoleq-secwrap .secheader-grp h5:first-child, .hwsetwocoleq-secwrap .secheader-grp h6:first-child {
+    padding: 0 0 25px;
+    margin: 0;
+}
+
+.ayur-classesactivities-sec .secheader-grp h1:first-child:after, .ayur-classesactivities-sec .secheader-grp h2:first-child:after, .ayur-classesactivities-sec .secheader-grp h3:first-child:after, .ayur-classesactivities-sec .secheader-grp h4:first-child:after, .ayur-classesactivities-sec .secheader-grp h5:first-child:after, .ayur-classesactivities-sec .secheader-grp h6:first-child:after, .indiaanactivities-sec .secheader-grp h1:first-child:after, .indiaanactivities-sec .secheader-grp h2:first-child:after, .indiaanactivities-sec .secheader-grp h3:first-child:after, .indiaanactivities-sec .secheader-grp h4:first-child:after, .indiaanactivities-sec .secheader-grp h5:first-child:after, .indiaanactivities-sec .secheader-grp h6:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h1:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h2:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h3:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h4:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h5:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h6:first-child:after {
+    content: "";
+    display: block;
+    width: 80%;
+    max-width: 100px;
+    height: 3px;
+    background-color: #c94c18;
+    margin: 5px auto 0;
+}
+
+.ayur-classesactivities-sec .secheader-grp > *:first-child, .indiaanactivities-sec .secheader-grp > *:first-child, .hwsetwocoleq-secwrap .secheader-grp > *:first-child {
+    margin-top: 0 !important;
+}
+
+.ayur-classesactivities-sec .secheader-grp > *:last-child, .indiaanactivities-sec .secheader-grp > *:last-child, .hwsetwocoleq-secwrap .secheader-grp > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.hwse-twocoleq-sec {
+    padding: 90px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.hwse-twocoleq-sec .flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+.hwse-twocoleq-sec .flex-box > * {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 50px;
+}
+
+.hwse-twocoleq-sec .flex-box.clmnrvrs {
+    flex-direction: row-reverse;
+}
+
+.hwse-twocoleq-sec .cntntgrp {
+    font-family: 'roboto', arial;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.hwse-twocoleq-sec .cntntgrp strong {
+    font: inherit;
+    font-weight: 600;
+}
+
+.hwse-twocoleq-sec .cntntgrp strong i {
+    font: inherit;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.hwse-twocoleq-sec .cntntgrp u {
+    font: inherit;
+}
+
+.hwse-twocoleq-sec .cntntgrp .icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 94px;
+    height: 94px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    box-shadow: 5px 0px 90px rgba(0, 0, 0, 0.18);
+    margin: 0 0 30px;
+}
+
+.hwse-twocoleq-sec .cntntgrp .icon img {
+    max-width: 50px;
+}
+
+.hwse-twocoleq-sec .cntntgrp h3, .hwse-twocoleq-sec .cntntgrp .h3 {
+    padding: 0 0 25px;
+    margin: 0;
+}
+
+.hwse-twocoleq-sec .cntntgrp h3:after, .hwse-twocoleq-sec .cntntgrp .h3:after {
+    content: "";
+    display: block;
+    width: 80%;
+    max-width: 100px;
+    height: 3px;
+    background-color: #c94c18;
+    margin: 20px 0 0;
+}
+
+.hwse-twocoleq-sec .cntntgrp ul:not([class]) {
+    padding: 5px 0 0;
+}
+
+.hwse-twocoleq-sec .cntntgrp ul:not([class]) li {
+    color: inherit;
+    font-family: 'roboto', arial;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 10px 0 0;
+    padding: 0 0 0 22px;
+    position: relative;
+}
+
+.hwse-twocoleq-sec .cntntgrp ul:not([class]) li:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: auto;
+    background-color: #c94c18;
+    border-radius: 100%;
+}
+
+.ayurca-imgslider .slide > img, .indiaactvts-imgslider .slide > img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ayurca-imgslider .slick-slide, .ayurca-imgslider .slick-slide *, .indiaactvts-imgslider .slick-slide, .indiaactvts-imgslider .slick-slide * {
+    outline: none;
+}
+
+.ayurca-imgslider .slick-dots, .indiaactvts-imgslider .slick-dots {
+    position: absolute;
+    top: auto;
+    bottom: 35px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ayurca-imgslider .slick-dots > li, .indiaactvts-imgslider .slick-dots > li {
+    width: auto;
+    height: auto;
+    padding: 0 8px;
+}
+
+.ayurca-imgslider .slick-dots > li, .ayurca-imgslider .slick-dots > li *, .indiaactvts-imgslider .slick-dots > li, .indiaactvts-imgslider .slick-dots > li * {
+    outline: none;
+}
+
+.ayurca-imgslider .slick-dots > li > button, .indiaactvts-imgslider .slick-dots > li > button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    color: transparent;
+    text-indent: -9999px;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    background-color: #d3d3d3;
+    border-radius: 100%;
+    border: 0 none;
+    transition: all 0.3s ease-in-out;
+}
+
+.ayurca-imgslider .slick-dots > li.slick-active > button, .indiaactvts-imgslider .slick-dots > li.slick-active > button {
+    width: 54px;
+    border-radius: 5px;
+    background-color: #c94c18;
+}
+
+.ayuractivities-secpart, .indiaactivities-secpart {
+    padding-top: 115px;
+}
+
+.ayuractivities-secpart .secheader-grp, .indiaactivities-secpart .secheader-grp {
+    color: #919191;
+    font-weight: normal;
+    line-height: 1.8;
+    text-align: center;
+    width: 100%;
+    max-width: 815px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 70px;
+}
+
+.ayuractivities-secpart .secheader-grp h1:first-child, .ayuractivities-secpart .secheader-grp h2:first-child, .ayuractivities-secpart .secheader-grp h3:first-child, .ayuractivities-secpart .secheader-grp h4:first-child, .ayuractivities-secpart .secheader-grp h5:first-child, .ayuractivities-secpart .secheader-grp h6:first-child, .indiaactivities-secpart .secheader-grp h1:first-child, .indiaactivities-secpart .secheader-grp h2:first-child, .indiaactivities-secpart .secheader-grp h3:first-child, .indiaactivities-secpart .secheader-grp h4:first-child, .indiaactivities-secpart .secheader-grp h5:first-child, .indiaactivities-secpart .secheader-grp h6:first-child {
+    padding: 0 0 25px;
+    margin: 0;
+}
+
+.ayuractivities-secpart .secheader-grp h1:first-child:after, .ayuractivities-secpart .secheader-grp h2:first-child:after, .ayuractivities-secpart .secheader-grp h3:first-child:after, .ayuractivities-secpart .secheader-grp h4:first-child:after, .ayuractivities-secpart .secheader-grp h5:first-child:after, .ayuractivities-secpart .secheader-grp h6:first-child:after, .indiaactivities-secpart .secheader-grp h1:first-child:after, .indiaactivities-secpart .secheader-grp h2:first-child:after, .indiaactivities-secpart .secheader-grp h3:first-child:after, .indiaactivities-secpart .secheader-grp h4:first-child:after, .indiaactivities-secpart .secheader-grp h5:first-child:after, .indiaactivities-secpart .secheader-grp h6:first-child:after {
+    content: "";
+    display: block;
+    width: 80%;
+    max-width: 100px;
+    height: 3px;
+    background-color: #c94c18;
+    margin: 5px auto 0;
+}
+
+.ayuractivities-secpart .secheader-grp > *:first-child, .indiaactivities-secpart .secheader-grp > *:first-child {
+    margin-top: 0 !important;
+}
+
+.ayuractivities-secpart .secheader-grp > *:last-child, .indiaactivities-secpart .secheader-grp > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.ayuractivities-secpart .csslider, .ayuractivities-secpart .csslider .slick-track, .indiaactivities-secpart .csslider, .indiaactivities-secpart .csslider .slick-track {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.ayuractivities-secpart .csslider *, .indiaactivities-secpart .csslider * {
+    outline: none !important;
+}
+
+.ayuractivities-secpart .csslider .csslide, .indiaactivities-secpart .csslider .csslide {
+    position: relative;
+    overflow: hidden;
+    color: #ffffff;
+    line-height: 1.8;
+    background-color: #000000;
+    border-radius: 10px;
+    margin: 0 35px;
+    transition: all 0.3s ease-in-out;
+    width: calc(80vw - 240px);
+    /*& > img {
+
+        position: absolute;
+
+        top: 0;
+
+        bottom: 0;
+
+        left: 0;
+
+        right: 0;
+
+        width: 100%;
+
+        height: 100%;
+
+        object-fit: cover;
+
+    }*/
+}
+
+.ayuractivities-secpart .csslider .csslide > img, .indiaactivities-secpart .csslider .csslide > img {
+    width: 100%;
+}
+
+.ayuractivities-secpart .csslider .csslide .cntntwrap, .indiaactivities-secpart .csslider .csslide .cntntwrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    padding: 80px 145px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 25%, #000000 100%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 25%, #000000 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 25%, #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+}
+
+.ayuractivities-secpart .csslider .csslide .cntntgrp, .indiaactivities-secpart .csslider .csslide .cntntgrp {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.ayuractivities-secpart .csslider .csslide .cntntgrp h1, .ayuractivities-secpart .csslider .csslide .cntntgrp h2, .ayuractivities-secpart .csslider .csslide .cntntgrp h3, .ayuractivities-secpart .csslider .csslide .cntntgrp h4, .ayuractivities-secpart .csslider .csslide .cntntgrp h5, .ayuractivities-secpart .csslider .csslide .cntntgrp h6, .indiaactivities-secpart .csslider .csslide .cntntgrp h1, .indiaactivities-secpart .csslider .csslide .cntntgrp h2, .indiaactivities-secpart .csslider .csslide .cntntgrp h3, .indiaactivities-secpart .csslider .csslide .cntntgrp h4, .indiaactivities-secpart .csslider .csslide .cntntgrp h5, .indiaactivities-secpart .csslider .csslide .cntntgrp h6 {
+    color: inherit;
+}
+
+.ayuractivities-secpart .csslider .csslide .cntntgrp .title, .indiaactivities-secpart .csslider .csslide .cntntgrp .title {
+    width: 30%;
+}
+
+.ayuractivities-secpart .csslider .csslide .cntntgrp .title h1:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h2:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h3:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h4:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h5:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h6:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h1:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h2:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h3:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h4:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h5:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h6:first-child:after {
+    content: "";
+    display: block;
+    width: 95%;
+    max-width: 100px;
+    height: 3px;
+    background-color: #c94c18;
+    margin: 15px 0;
+}
+
+.ayuractivities-secpart .csslider .csslide .cntntgrp .title > *:first-child, .indiaactivities-secpart .csslider .csslide .cntntgrp .title > *:first-child {
+    margin-top: 0 !important;
+}
+
+.ayuractivities-secpart .csslider .csslide .cntntgrp .title > *:last-child, .indiaactivities-secpart .csslider .csslide .cntntgrp .title > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.ayuractivities-secpart .csslider .csslide .cntntgrp .cntnt, .indiaactivities-secpart .csslider .csslide .cntntgrp .cntnt {
+    width: 70%;
+    padding-left: 140px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ayuractivities-secpart .csslider .csslide .cntntgrp .cntnt > *:first-child, .indiaactivities-secpart .csslider .csslide .cntntgrp .cntnt > *:first-child {
+    margin-top: 0 !important;
+}
+
+.ayuractivities-secpart .csslider .csslide .cntntgrp .cntnt > *:last-child, .indiaactivities-secpart .csslider .csslide .cntntgrp .cntnt > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.ayuractivities-secpart .csslider .csslide.slick-current, .ayuractivities-secpart .csslider .csslide.slick-current.slick-active, .indiaactivities-secpart .csslider .csslide.slick-current, .indiaactivities-secpart .csslider .csslide.slick-current.slick-active {
+    /*transform: scale(1);
+
+      margin-top: 0;*/
+    width: calc(90vw - 360px);
+}
+
+.ayuractivities-secpart .csslider .slick-arrow, .indiaactivities-secpart .csslider .slick-arrow {
+    width: 50px;
+    height: 51px;
+    position: absolute;
+    top: 50%;
+    left: auto;
+    right: auto;
+    z-index: 1;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center center;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.35);
+    border: 0 none;
+    border-radius: 100%;
+    cursor: pointer;
+    color: transparent;
+    text-indent: -9999px;
+}
+
+.ayuractivities-secpart .csslider .slick-arrow.slick-prev, .indiaactivities-secpart .csslider .slick-arrow.slick-prev {
+    left: calc( calc(100vw - 1730px) / 2 );
+    background-image: url("../img/slidearrow-left.png");
+}
+
+.ayuractivities-secpart .csslider .slick-arrow.slick-next, .indiaactivities-secpart .csslider .slick-arrow.slick-next {
+    right: calc( calc(100vw - 1730px) / 2 );
+    background-image: url("../img/slidearrow-next.png");
+}
+
+/**/
+.indiaanactivities-sec {
+    padding-top: 0 !important;
+}
+
+.indiaaction-secpart {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.indiaaction-secpart .container {
+    width: 100%;
+    max-width: 1215px;
+}
+
+.indiaaction-secpart .cntntgrp {
+    color: #333333;
+}
+
+/**/
+.otheredumodels-sec {
+    padding: 100px 0;
+}
+
+.otheredumodels-sec .secheader-grp {
+    color: #919191;
+    font-weight: normal;
+    line-height: 1.8;
+    text-align: center;
+    width: 100%;
+    max-width: 815px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 5px;
+}
+
+.otheredumodels-sec .secheader-grp h1:first-child, .otheredumodels-sec .secheader-grp h2:first-child, .otheredumodels-sec .secheader-grp h3:first-child, .otheredumodels-sec .secheader-grp h4:first-child, .otheredumodels-sec .secheader-grp h5:first-child, .otheredumodels-sec .secheader-grp h6:first-child {
+    padding: 0 0 25px;
+    margin: 0;
+}
+
+.otheredumodels-sec .secheader-grp h1:first-child:after, .otheredumodels-sec .secheader-grp h2:first-child:after, .otheredumodels-sec .secheader-grp h3:first-child:after, .otheredumodels-sec .secheader-grp h4:first-child:after, .otheredumodels-sec .secheader-grp h5:first-child:after, .otheredumodels-sec .secheader-grp h6:first-child:after {
+    content: "";
+    display: block;
+    width: 80%;
+    max-width: 100px;
+    height: 3px;
+    background-color: #c94c18;
+    margin: 10px auto 0;
+}
+
+.otheredumodels-sec .secheader-grp > *:first-child {
+    margin-top: 0 !important;
+}
+
+.otheredumodels-sec .secheader-grp > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.otheredumodels-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 0 0;
+}
+
+.otheredumodels-items .item {
+    width: 33.33%;
+    max-width: 413px;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.otheredumodels-items .item .iteminnr {
+    font-weight: normal;
+    padding: 45px 65px;
+    padding-bottom: 110px;
+    background-color: #ffffff;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.otheredumodels-items .item .iteminnr .trnprtbgbrn:last-child {
+    position: absolute;
+    top: auto;
+    bottom: 45px;
+    left: auto;
+    right: auto;
+}
+
+.otheredumodels-items .item .iteminnr:hover {
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.otheredumodels-items .item .icon {
+    width: 112px;
+    height: 112px;
+    background-color: #f8f8f8;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px 0 20px;
+}
+
+.otheredumodels-items .item .icon img {
+    max-width: 60px;
+}
+
+.otheredumodels-items .item h4, .otheredumodels-items .item .h4 {
+    padding: 0 0 22px;
+    margin: 0;
+}
+
+.otheredumodels-items .item h4:after, .otheredumodels-items .item .h4:after {
+    content: "";
+    display: block;
+    width: 80%;
+    max-width: 70px;
+    height: 3px;
+    background-color: #c94c18;
+    margin: 15px 0 0;
+}
+
+/**/
+.skllexcllnce-banner-sec .flex-box {
+    background-size: contain;
+}
+
+.intrdscplnryskll-secpart {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom: 0 none !important;
+}
+
+.clmntngactvte-sec {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.clmntngactvte-secpart {
+    border-bottom: 0 none !important;
+}
+
+/* MIN Width */
+@media (min-width: 901px) {
+    .show-900 {
+        display: none !important;
+    }
+}
+
+/* MAX Width */
+@media (max-width: 1600px) {
+    .pagecntnr {
+        font-size: 16px;
+    }
+
+    .pagecntnr h1 {
+        font-size: 55px;
+    }
+
+    .pagecntnr h2 {
+        font-size: 48px;
+    }
+
+    .pagecntnr h3 {
+        font-size: 42px;
+    }
+
+    .pagecntnr h4 {
+        font-size: 30px;
+    }
+
+    .pagecntnr h5 {
+        font-size: 28px;
+    }
+
+    .pagecntnr h6 {
+        font-size: 20px;
+    }
+
+    .trnprtbgbrn {
+        font-size: 11px;
+        padding: 12px 20px;
+        margin-top: 10px;
+    }
+
+    /**/
+    .hlisticwllbng-banner-sec, .skllexcllnce-banner-sec {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .hlisticwllbng-banner-sec .flex-box, .skllexcllnce-banner-sec .flex-box {
+        min-height: 600px;
+    }
+
+    .hlisticwllbng-banner-sec .imggrp img, .skllexcllnce-banner-sec .imggrp img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .hlisticwllbng-banner-sec .cntntgrp, .skllexcllnce-banner-sec .cntntgrp {
+        font-size: 19px;
+        padding: 0 30px;
+    }
+
+    .hlisticwllbng-banner-sec .cntntgrp img.hinditext, .skllexcllnce-banner-sec .cntntgrp img.hinditext {
+        max-width: 630px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .typeofedulist-sec {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .typeofedulist-sec .secheader-grp {
+        padding-bottom: 20px;
+    }
+
+    ul.typeofedulist > li {
+        max-width: 380px;
+        padding: 0 20px;
+        margin: 15px 0;
+    }
+
+    ul.typeofedulist > li > a {
+        padding: 50px 25px;
+    }
+
+    ul.typeofedulist > li > a > img {
+        width: auto;
+        max-height: 65px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    ul.typeofedulist > li h4:before, ul.typeofedulist > li .h4:before {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .holisticwellbeing-msg-sec {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .holisticwellbeing-msg-sec .cntntgrp {
+        max-width: 675px;
+    }
+
+    .ayur-classesactivities-sec, .indiaanactivities-sec, .hwsetwocoleq-secwrap {
+        padding: 85px 0;
+    }
+
+    .ayur-classesactivities-sec .secheader-grp, .indiaanactivities-sec .secheader-grp, .hwsetwocoleq-secwrap .secheader-grp {
+        width: 100%;
+        max-width: 775px;
+        padding-bottom: 0;
+    }
+
+    .ayur-classesactivities-sec .secheader-grp h1:first-child, .ayur-classesactivities-sec .secheader-grp h2:first-child, .ayur-classesactivities-sec .secheader-grp h3:first-child, .ayur-classesactivities-sec .secheader-grp h4:first-child, .ayur-classesactivities-sec .secheader-grp h5:first-child, .ayur-classesactivities-sec .secheader-grp h6:first-child, .indiaanactivities-sec .secheader-grp h1:first-child, .indiaanactivities-sec .secheader-grp h2:first-child, .indiaanactivities-sec .secheader-grp h3:first-child, .indiaanactivities-sec .secheader-grp h4:first-child, .indiaanactivities-sec .secheader-grp h5:first-child, .indiaanactivities-sec .secheader-grp h6:first-child, .hwsetwocoleq-secwrap .secheader-grp h1:first-child, .hwsetwocoleq-secwrap .secheader-grp h2:first-child, .hwsetwocoleq-secwrap .secheader-grp h3:first-child, .hwsetwocoleq-secwrap .secheader-grp h4:first-child, .hwsetwocoleq-secwrap .secheader-grp h5:first-child, .hwsetwocoleq-secwrap .secheader-grp h6:first-child {
+        padding: 0 0 18px;
+    }
+
+    .ayur-classesactivities-sec .secheader-grp h1:first-child:after, .ayur-classesactivities-sec .secheader-grp h2:first-child:after, .ayur-classesactivities-sec .secheader-grp h3:first-child:after, .ayur-classesactivities-sec .secheader-grp h4:first-child:after, .ayur-classesactivities-sec .secheader-grp h5:first-child:after, .ayur-classesactivities-sec .secheader-grp h6:first-child:after, .indiaanactivities-sec .secheader-grp h1:first-child:after, .indiaanactivities-sec .secheader-grp h2:first-child:after, .indiaanactivities-sec .secheader-grp h3:first-child:after, .indiaanactivities-sec .secheader-grp h4:first-child:after, .indiaanactivities-sec .secheader-grp h5:first-child:after, .indiaanactivities-sec .secheader-grp h6:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h1:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h2:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h3:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h4:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h5:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h6:first-child:after {
+        max-width: 75px;
+        height: 2px;
+    }
+
+    .hwse-twocoleq-sec {
+        padding: 65px 0;
+    }
+
+    .hwse-twocoleq-sec .flex-box {
+        margin-left: -35px;
+        margin-right: -35px;
+    }
+
+    .hwse-twocoleq-sec .flex-box > * {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp {
+        font-size: 17px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp .icon {
+        width: 85px;
+        height: 85px;
+        margin-bottom: 20px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp .icon img {
+        max-width: 40px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp h3, .hwse-twocoleq-sec .cntntgrp .h3 {
+        padding-bottom: 20px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp h3:after, .hwse-twocoleq-sec .cntntgrp .h3:after {
+        max-width: 80px;
+        margin-top: 15px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp ul:not([class]) li {
+        padding-left: 18px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp ul:not([class]) li:before {
+        width: 8px;
+        height: 8px;
+    }
+
+    .ayuractivities-secpart, .indiaactivities-secpart {
+        padding-top: 60px;
+    }
+
+    .ayuractivities-secpart .secheader-grp, .indiaactivities-secpart .secheader-grp {
+        width: 100%;
+        max-width: 700px;
+        padding-bottom: 40px;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntwrap, .indiaactivities-secpart .csslider .csslide .cntntwrap {
+        padding: 65px 90px;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntgrp .title h1:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h2:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h3:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h4:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h5:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h6:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h1:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h2:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h3:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h4:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h5:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h6:first-child:after {
+        max-width: 70px;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntgrp .cntnt, .indiaactivities-secpart .csslider .csslide .cntntgrp .cntnt {
+        padding-left: 75px;
+    }
+
+    .ayuractivities-secpart .csslider .csslide.slick-current, .ayuractivities-secpart .csslider .csslide.slick-current.slick-active, .indiaactivities-secpart .csslider .csslide.slick-current, .indiaactivities-secpart .csslider .csslide.slick-current.slick-active {
+        width: calc(90vw - 240px);
+    }
+
+    .ayurca-imgslider .slick-dots > li, .indiaactvts-imgslider .slick-dots > li {
+        padding: 0 6px;
+    }
+
+    .ayurca-imgslider .slick-dots > li > button, .indiaactvts-imgslider .slick-dots > li > button {
+        width: 8px;
+        height: 8px;
+    }
+
+    .ayurca-imgslider .slick-dots > li.slick-active > button, .indiaactvts-imgslider .slick-dots > li.slick-active > button {
+        width: 42px;
+    }
+
+    .indiaaction-secpart {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .otheredumodels-sec {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .otheredumodels-sec .secheader-grp h1:first-child, .otheredumodels-sec .secheader-grp h2:first-child, .otheredumodels-sec .secheader-grp h3:first-child, .otheredumodels-sec .secheader-grp h4:first-child, .otheredumodels-sec .secheader-grp h5:first-child, .otheredumodels-sec .secheader-grp h6:first-child {
+        padding-bottom: 20px;
+    }
+
+    .otheredumodels-sec .secheader-grp h1:first-child:after, .otheredumodels-sec .secheader-grp h2:first-child:after, .otheredumodels-sec .secheader-grp h3:first-child:after, .otheredumodels-sec .secheader-grp h4:first-child:after, .otheredumodels-sec .secheader-grp h5:first-child:after, .otheredumodels-sec .secheader-grp h6:first-child:after {
+        max-width: 80px;
+        height: 2px;
+    }
+
+    .otheredumodels-items {
+        padding-top: 10px;
+    }
+
+    .otheredumodels-items .item {
+        max-width: 380px;
+    }
+
+    .otheredumodels-items .item .iteminnr {
+        padding: 40px 45px;
+        padding-bottom: 95px;
+    }
+
+    .otheredumodels-items .item .iteminnr .trnprtbgbrn:last-child {
+        bottom: 40px;
+    }
+
+    .otheredumodels-items .item h4, .otheredumodels-items .item .h4 {
+        line-height: 1.1;
+        padding-bottom: 18px;
+    }
+
+    .otheredumodels-items .item h4::after, .otheredumodels-items .item .h4::after {
+        max-width: 50px;
+    }
+
+    .otheredumodels-items .item .icon {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    .otheredumodels-items .item .icon img {
+        max-width: 100%;
+        max-height: 42px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .pagecntnr {
+        font-size: 15px;
+    }
+
+    .pagecntnr h1 {
+        font-size: 48px;
+    }
+
+    .pagecntnr h2 {
+        font-size: 44px;
+    }
+
+    .pagecntnr h3 {
+        font-size: 38px;
+    }
+
+    .pagecntnr h4 {
+        font-size: 27px;
+    }
+
+    .pagecntnr h5 {
+        font-size: 25px;
+    }
+
+    .pagecntnr h6 {
+        font-size: 18px;
+    }
+
+    .trnprtbgbrn {
+        font-size: 10px;
+        padding: 10px 18px;
+    }
+
+    .pagecntnr .container {
+        width: 95%;
+        max-width: 1150px;
+    }
+
+    /**/
+    .hlisticwllbng-banner-sec, .skllexcllnce-banner-sec {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .hlisticwllbng-banner-sec .flex-box, .skllexcllnce-banner-sec .flex-box {
+        min-height: 530px;
+    }
+
+    .hlisticwllbng-banner-sec .imgclmn, .skllexcllnce-banner-sec .imgclmn {
+        width: 42%;
+    }
+
+    .hlisticwllbng-banner-sec .cntntclmn, .skllexcllnce-banner-sec .cntntclmn {
+        width: 58%;
+    }
+
+    .hlisticwllbng-banner-sec .imggrp img, .skllexcllnce-banner-sec .imggrp img {
+        max-width: 450px;
+    }
+
+    .hlisticwllbng-banner-sec .cntntgrp, .skllexcllnce-banner-sec .cntntgrp {
+        font-size: 16px;
+        padding: 0 13%;
+    }
+
+    .hlisticwllbng-banner-sec .cntntgrp img.hinditext, .skllexcllnce-banner-sec .cntntgrp img.hinditext {
+        width: 100%;
+        max-width: 550px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .typeofedulist-sec {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .typeofedulist-sec .secheader-grp {
+        padding-bottom: 15px;
+    }
+
+    ul.typeofedulist > li {
+        max-width: 320px;
+        padding: 0 15px;
+        margin: 12px 0;
+    }
+
+    ul.typeofedulist > li > a {
+        padding: 45px 25px;
+    }
+
+    ul.typeofedulist > li > a > img {
+        max-height: 55px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    ul.typeofedulist > li h4:before, ul.typeofedulist > li .h4:before {
+        width: 28px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .holisticwellbeing-msg-sec {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .holisticwellbeing-msg-sec .cntntgrp {
+        max-width: 600px;
+    }
+
+    .ayur-classesactivities-sec, .indiaanactivities-sec, .hwsetwocoleq-secwrap {
+        padding: 75px 0;
+    }
+
+    .ayur-classesactivities-sec .container, .indiaanactivities-sec .container, .hwsetwocoleq-secwrap .container {
+        width: 95%;
+        max-width: 1000px;
+    }
+
+    .ayur-classesactivities-sec .secheader-grp, .indiaanactivities-sec .secheader-grp, .hwsetwocoleq-secwrap .secheader-grp {
+        width: 100%;
+        max-width: 725px;
+        padding-bottom: 0;
+    }
+
+    .ayur-classesactivities-sec .secheader-grp h1:first-child, .ayur-classesactivities-sec .secheader-grp h2:first-child, .ayur-classesactivities-sec .secheader-grp h3:first-child, .ayur-classesactivities-sec .secheader-grp h4:first-child, .ayur-classesactivities-sec .secheader-grp h5:first-child, .ayur-classesactivities-sec .secheader-grp h6:first-child, .indiaanactivities-sec .secheader-grp h1:first-child, .indiaanactivities-sec .secheader-grp h2:first-child, .indiaanactivities-sec .secheader-grp h3:first-child, .indiaanactivities-sec .secheader-grp h4:first-child, .indiaanactivities-sec .secheader-grp h5:first-child, .indiaanactivities-sec .secheader-grp h6:first-child, .hwsetwocoleq-secwrap .secheader-grp h1:first-child, .hwsetwocoleq-secwrap .secheader-grp h2:first-child, .hwsetwocoleq-secwrap .secheader-grp h3:first-child, .hwsetwocoleq-secwrap .secheader-grp h4:first-child, .hwsetwocoleq-secwrap .secheader-grp h5:first-child, .hwsetwocoleq-secwrap .secheader-grp h6:first-child {
+        padding: 0 0 12px;
+    }
+
+    .ayur-classesactivities-sec .secheader-grp h1:first-child:after, .ayur-classesactivities-sec .secheader-grp h2:first-child:after, .ayur-classesactivities-sec .secheader-grp h3:first-child:after, .ayur-classesactivities-sec .secheader-grp h4:first-child:after, .ayur-classesactivities-sec .secheader-grp h5:first-child:after, .ayur-classesactivities-sec .secheader-grp h6:first-child:after, .indiaanactivities-sec .secheader-grp h1:first-child:after, .indiaanactivities-sec .secheader-grp h2:first-child:after, .indiaanactivities-sec .secheader-grp h3:first-child:after, .indiaanactivities-sec .secheader-grp h4:first-child:after, .indiaanactivities-sec .secheader-grp h5:first-child:after, .indiaanactivities-sec .secheader-grp h6:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h1:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h2:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h3:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h4:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h5:first-child:after, .hwsetwocoleq-secwrap .secheader-grp h6:first-child:after {
+        max-width: 65px;
+    }
+
+    .hwse-twocoleq-sec {
+        padding: 50px 0;
+    }
+
+    .hwse-twocoleq-sec .flex-box {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+
+    .hwse-twocoleq-sec .flex-box > * {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp {
+        font-size: 15px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp .icon {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 15px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp .icon img {
+        max-width: 32px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp h3, .hwse-twocoleq-sec .cntntgrp .h3 {
+        padding-bottom: 18px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp h3:after, .hwse-twocoleq-sec .cntntgrp .h3:after {
+        max-width: 65px;
+        margin-top: 12px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp ul:not([class]) li {
+        padding-left: 16px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp ul:not([class]) li:before {
+        width: 6px;
+        height: 6px;
+    }
+
+    .ayuractivities-secpart, .indiaactivities-secpart {
+        padding-top: 50px;
+    }
+
+    .ayuractivities-secpart .secheader-grp, .indiaactivities-secpart .secheader-grp {
+        width: 100%;
+        max-width: 620px;
+        padding-bottom: 35px;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntwrap, .indiaactivities-secpart .csslider .csslide .cntntwrap {
+        padding: 50px 70px;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntgrp .title h1:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h2:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h3:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h4:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h5:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h6:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h1:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h2:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h3:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h4:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h5:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h6:first-child:after {
+        max-width: 55px;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntgrp .cntnt, .indiaactivities-secpart .csslider .csslide .cntntgrp .cntnt {
+        padding-left: 60px;
+    }
+
+    .ayuractivities-secpart .csslider .csslide.slick-current, .ayuractivities-secpart .csslider .csslide.slick-current.slick-active, .indiaactivities-secpart .csslider .csslide.slick-current, .indiaactivities-secpart .csslider .csslide.slick-current.slick-active {
+        width: calc(90vw - 200px);
+    }
+
+    .ayuractivities-secpart .csslider .slick-arrow, .indiaactivities-secpart .csslider .slick-arrow {
+        width: 42px;
+        height: 42px;
+        background-size: 22%;
+    }
+
+    .ayuractivities-secpart .csslider .slick-arrow.slick-prev, .indiaactivities-secpart .csslider .slick-arrow.slick-prev {
+        left: calc( calc(100vw - 81%) / 2 );
+    }
+
+    .ayuractivities-secpart .csslider .slick-arrow.slick-next, .indiaactivities-secpart .csslider .slick-arrow.slick-next {
+        right: calc( calc(100vw - 81%) / 2 );
+    }
+
+    .ayurca-imgslider .slick-dots > li, .indiaactvts-imgslider .slick-dots > li {
+        padding: 0 5px;
+    }
+
+    .ayurca-imgslider .slick-dots > li > button, .indiaactvts-imgslider .slick-dots > li > button {
+        width: 7px;
+        height: 7px;
+    }
+
+    .ayurca-imgslider .slick-dots > li.slick-active > button, .indiaactvts-imgslider .slick-dots > li.slick-active > button {
+        width: 38px;
+    }
+
+    .indiaaction-secpart {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .otheredumodels-sec {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .otheredumodels-sec .secheader-grp h1:first-child, .otheredumodels-sec .secheader-grp h2:first-child, .otheredumodels-sec .secheader-grp h3:first-child, .otheredumodels-sec .secheader-grp h4:first-child, .otheredumodels-sec .secheader-grp h5:first-child, .otheredumodels-sec .secheader-grp h6:first-child {
+        padding-bottom: 15px;
+    }
+
+    .otheredumodels-sec .secheader-grp h1:first-child:after, .otheredumodels-sec .secheader-grp h2:first-child:after, .otheredumodels-sec .secheader-grp h3:first-child:after, .otheredumodels-sec .secheader-grp h4:first-child:after, .otheredumodels-sec .secheader-grp h5:first-child:after, .otheredumodels-sec .secheader-grp h6:first-child:after {
+        max-width: 60px;
+    }
+
+    .otheredumodels-items {
+        padding-top: 10px;
+    }
+
+    .otheredumodels-items .item {
+        max-width: 320px;
+    }
+
+    .otheredumodels-items .item .iteminnr {
+        padding: 30px 25px;
+        padding-bottom: 90px;
+    }
+
+    .otheredumodels-items .item .iteminnr .trnprtbgbrn:last-child {
+        bottom: 40px;
+    }
+
+    .otheredumodels-items .item h4::after, .otheredumodels-items .item .h4::after {
+        max-width: 40px;
+    }
+
+    .otheredumodels-items .item .icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .otheredumodels-items .item .icon img {
+        max-height: 35px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .pagecntnr {
+        font-size: 14px;
+    }
+
+    .pagecntnr h1 {
+        font-size: 44px;
+    }
+
+    .pagecntnr h2 {
+        font-size: 40px;
+    }
+
+    .pagecntnr h3 {
+        font-size: 36px;
+    }
+
+    .pagecntnr h4 {
+        font-size: 25px;
+    }
+
+    .pagecntnr h5 {
+        font-size: 23px;
+    }
+
+    .pagecntnr h6 {
+        font-size: 17px;
+    }
+
+    .pagecntnr .container {
+        width: 90% !important;
+    }
+
+    /**/
+    .hlisticwllbng-banner-sec .flex-box, .skllexcllnce-banner-sec .flex-box {
+        min-height: 450px;
+    }
+
+    .hlisticwllbng-banner-sec .imgclmn, .skllexcllnce-banner-sec .imgclmn {
+        width: 50%;
+    }
+
+    .hlisticwllbng-banner-sec .cntntclmn, .skllexcllnce-banner-sec .cntntclmn {
+        width: 50%;
+    }
+
+    .hlisticwllbng-banner-sec .imggrp img, .skllexcllnce-banner-sec .imggrp img {
+        max-width: 400px;
+    }
+
+    .hlisticwllbng-banner-sec .cntntgrp, .skllexcllnce-banner-sec .cntntgrp {
+        font-size: 15px;
+        padding: 0 6%;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntwrap, .indiaactivities-secpart .csslider .csslide .cntntwrap {
+        padding: 45px 50px;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntgrp .title h1:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h2:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h3:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h4:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h5:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h6:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h1:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h2:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h3:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h4:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h5:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h6:first-child:after {
+        max-width: 40px;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntgrp .cntnt, .indiaactivities-secpart .csslider .csslide .cntntgrp .cntnt {
+        padding-left: 40px;
+    }
+
+    .ayuractivities-secpart .csslider .csslide.slick-current, .ayuractivities-secpart .csslider .csslide.slick-current.slick-active, .indiaactivities-secpart .csslider .csslide.slick-current, .indiaactivities-secpart .csslider .csslide.slick-current.slick-active {
+        width: calc(90vw - 150px);
+    }
+
+    .ayuractivities-secpart .csslider .slick-arrow, .indiaactivities-secpart .csslider .slick-arrow {
+        width: 38px;
+        height: 38px;
+        background-size: 20%;
+    }
+
+    ul.typeofedulist > li {
+        max-width: 280px;
+    }
+
+    ul.typeofedulist > li > a > img {
+        max-height: 48px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp {
+        font-size: 14px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp .icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp .icon img {
+        max-width: 50%;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp h3, .hwse-twocoleq-sec .cntntgrp .h3 {
+        padding-bottom: 15px;
+    }
+
+    .otheredumodels-items .item {
+        padding: 0 15px;
+        margin: 15px 0;
+    }
+
+    .otheredumodels-items .item .icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .otheredumodels-items .item .icon img {
+        max-height: 62%;
+    }
+}
+
+@media (max-width: 900px) {
+    .hide-900 {
+        display: none !important;
+    }
+
+    .hlisticwllbng-banner-sec .imggrp img, .skllexcllnce-banner-sec .imggrp img {
+        display: block !important;
+    }
+
+    /**/
+    .hlisticwllbng-banner-sec, .skllexcllnce-banner-sec {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #f5f4f3;
+        position: relative;
+        background-image: url("../img/hwsebanner-bgimg.jpg") !important;
+        background-size: auto;
+    }
+
+    .hlisticwllbng-banner-sec .flex-box, .skllexcllnce-banner-sec .flex-box {
+        display: block;
+    }
+
+    .hlisticwllbng-banner-sec .imgclmn, .hlisticwllbng-banner-sec .cntntclmn, .skllexcllnce-banner-sec .imgclmn, .skllexcllnce-banner-sec .cntntclmn {
+        width: 100%;
+    }
+
+    .hlisticwllbng-banner-sec .imggrp img, .skllexcllnce-banner-sec .imggrp img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hlisticwllbng-banner-sec .cntntgrp, .skllexcllnce-banner-sec .cntntgrp {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 25px;
+    }
+
+    .hwse-twocoleq-sec .flex-box {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hwse-twocoleq-sec .flex-box > * {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp h3, .hwse-twocoleq-sec .cntntgrp .h3 {
+        text-align: center;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp h3:after, .hwse-twocoleq-sec .cntntgrp .h3:after {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp .icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hwse-twocoleq-sec .cntntgrp ul:not([class]) {
+        padding: 0;
+    }
+
+    .ayurca-imgslider, .indiaactvts-imgslider {
+        padding: 10px 0 20px;
+    }
+
+    .ayuractivities-secpart .csslider .csslide, .indiaactivities-secpart .csslider .csslide {
+        width: auto;
+        margin: 0 auto;
+        transform: scale(0.75);
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntwrap, .indiaactivities-secpart .csslider .csslide .cntntwrap {
+        padding: 30px 12%;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntgrp, .indiaactivities-secpart .csslider .csslide .cntntgrp {
+        text-align: center;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntgrp .title, .ayuractivities-secpart .csslider .csslide .cntntgrp .cntnt, .indiaactivities-secpart .csslider .csslide .cntntgrp .title, .indiaactivities-secpart .csslider .csslide .cntntgrp .cntnt {
+        width: 100%;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntgrp .title h1:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h2:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h3:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h4:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h5:first-child:after, .ayuractivities-secpart .csslider .csslide .cntntgrp .title h6:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h1:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h2:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h3:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h4:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h5:first-child:after, .indiaactivities-secpart .csslider .csslide .cntntgrp .title h6:first-child:after {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntgrp .cntnt, .indiaactivities-secpart .csslider .csslide .cntntgrp .cntnt {
+        padding: 0;
+        border-left: 0 none;
+    }
+
+    .ayuractivities-secpart .csslider .csslide.slick-current, .ayuractivities-secpart .csslider .csslide.slick-current.slick-active, .indiaactivities-secpart .csslider .csslide.slick-current, .indiaactivities-secpart .csslider .csslide.slick-current.slick-active {
+        width: auto;
+        transform: scale(1);
+    }
+
+    .ayuractivities-secpart .csslider .slick-list, .indiaactivities-secpart .csslider .slick-list {
+        padding: 0 !important;
+    }
+
+    .ayuractivities-secpart .csslider .slick-arrow, .indiaactivities-secpart .csslider .slick-arrow {
+        width: 30px;
+        height: 30px;
+        background-size: 30%;
+    }
+
+    .ayuractivities-secpart .csslider .slick-arrow.slick-prev, .indiaactivities-secpart .csslider .slick-arrow.slick-prev {
+        left: 9%;
+    }
+
+    .ayuractivities-secpart .csslider .slick-arrow.slick-next, .indiaactivities-secpart .csslider .slick-arrow.slick-next {
+        right: 9%;
+    }
+
+    .otheredumodels-sec {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .otheredumodels-items {
+        display: flex;
+        width: auto;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+        -ms-overflow-style: none;
+        overflow: -moz-scrollbars-none;
+        flex-wrap: nowrap;
+        margin-left: -20%;
+        margin-right: -13%;
+        margin-bottom: -50px;
+        padding-left: 12%;
+        padding-right: 5%;
+        padding-bottom: 50px;
+        justify-content: flex-start;
+    }
+
+    .otheredumodels-items::-webkit-scrollbar {
+        display: none;
+    }
+
+    .otheredumodels-items .item {
+        width: 80%;
+        min-width: 300px;
+        max-width: 300px;
+        padding: 0 20px;
+        white-space: normal;
+    }
+
+    .otheredumodels-items .item .iteminnr {
+        padding: 40px 30px;
+        padding-bottom: 90px;
+    }
+
+    .skllexcllnce-banner-sec .cntntgrp .imggrp {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .typeofedulist-sec .secheader-grp h1 > br, .typeofedulist-sec .secheader-grp .h1 > br, .typeofedulist-sec .secheader-grp p > br {
+        display: none;
+    }
+
+    ul.typeofedulist {
+        display: block;
+    }
+
+    ul.typeofedulist > li {
+        width: 95%;
+        max-width: 300px;
+        margin: 35px auto 0;
+    }
+
+    ul.typeofedulist > li:first-child {
+        margin-top: 10px;
+    }
+
+    .holisticwellbeing-msg-sec {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .ayuractivities-secpart, .indiaactivities-secpart {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .ayuractivities-secpart .csslider .csslide > img, .indiaactivities-secpart .csslider .csslide > img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntwrap, .indiaactivities-secpart .csslider .csslide .cntntwrap {
+        position: static;
+        padding: 25px 8%;
+        padding-top: 60%;
+    }
+
+    .ayuractivities-secpart .csslider .slick-list, .indiaactivities-secpart .csslider .slick-list {
+        padding: 0 20px !important;
+    }
+}
+
+@media (max-width: 479px) {
+    .pagecntnr .container {
+        width: 99% !important;
+    }
+
+    .ayuractivities-secpart .csslider .csslide .cntntwrap, .indiaactivities-secpart .csslider .csslide .cntntwrap {
+        padding-top: 82%;
+    }
+
+    .otheredumodels-items {
+        margin-left: -8%;
+        margin-right: -8%;
+        padding-left: 0;
+    }
+}
+
+/*# sourceMappingURL=mahendra.css.map */

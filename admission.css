@@ -1,0 +1,606 @@
+
+/* admission 2023 new page css start */
+.containers {
+    max-width: 1210px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .padtop{
+      padding-top:20px !important;
+  }
+  .showcase {
+     font-family:"Roboto";
+    position: relative;
+  }
+  .showcase li {
+    position: relative;
+  }
+  .showcase li img {
+    max-width: 100%;
+  }
+  .showcase li .caption {
+    position: absolute;
+    width: 90%;
+    top: 5%;
+    right: 85px;
+    padding: 0px 20px 10px 20px;
+    text-align: right;
+    z-index: 1;
+  }
+  .caption_content {
+    width: 55%;
+    text-align: left;
+    float: left;
+  }
+  .caption_content h1 {
+    font-size: 44px;
+    line-height: 35px;
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 100px;
+    padding-bottom:10px;
+  }
+  .caption_content p {
+    font-size: 22px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  .caption_content p b {
+    color: #000;
+    font-weight: 700;
+  }
+  .caption_content ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .caption_content li {
+    font-size: 14px;
+    line-height: 23px;
+    color: #c74a1b;
+    font-weight: 400;
+    padding-bottom: 10px;
+    width: 50%;
+  }
+  .caption_content li .icons {
+    display: inline-block;
+    background: #fff;
+    height: 25px;
+    line-height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.23);
+    padding: 3px;
+  }
+  .caption_form {
+    width: 45%;
+    float: left;
+     font-family: "Roboto" !important;
+  }
+  .appoint_form {
+     font-family: "Roboto" !important;
+    width: 300px;
+    background-color: #c74a1b;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    text-align: left;
+    float: right;
+  }
+  .appoint_form p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .appoint_form h2 {
+    font-family:"Roboto";
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom:10px;
+    font-weight:bold;
+    text-align:center;
+  }
+  .appoint_form input {
+    height: calc(1.9rem + 9px);
+    padding: 1.0rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-top:5px;
+    margin-bottom:5px;
+    width:100%;
+    border:0px;
+  }
+  .appoint_form .label {
+    margin-bottom: 0;
+    font-size: 14px;
+    text-align: left;
+     font-family:"Roboto";
+  }
+  
+  .appoint_form input[type="checkbox"],
+  input[type="radio"] {
+    margin-top: -5px;
+  }
+  
+  .appoint_form a {
+    color: #000;
+  }
+  .appoint_form label {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+    color: #ffffff;
+    font-family: "Roboto" !important;
+    padding-bottom:10px;
+  }
+  .appoint_form select {
+    padding: 0.7rem 0.75rem;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+    color: #6c757d;
+    width:100%;
+    margin-top:5px;
+    margin-bottom:10px;
+    border-radius:0px;
+    background:#fff;
+    border:0px;
+  }
+  
+  .appoint_form textarea {
+    padding: 0.5rem 0.75rem;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+    color: #6c757d;
+    width:100%;
+    margin-top:5px;
+    margin-bottom:10px;
+    border:0px;
+  }
+  
+  .appoint_form button[type="submit"] {
+    width: 100%;
+    padding: 0.8rem 0.75rem;
+    margin: 0 auto;
+    background: #723421;
+    color: #fff;
+    cursor: pointer;
+    border-radius:0px;
+    font-size: 15px;
+    font-weight:bold;
+    text-transform:uppercase;
+    border-color: transparent;
+  }
+  .cal-admsion{
+    font-family: "Roboto" !important;
+    font-size: 18px;
+    color: #000000;
+    text-align:center;
+    padding:20px 0px 10px 0px;
+    font-weight:600;
+  }
+  .cal-numbr{
+    font-family: "Roboto" !important;
+    font-size: 15px;
+    color: #000000;
+    text-align:center;
+    font-weight:600;
+  }
+  .admisin-frm{
+      /* width:900px; */
+  }
+  .admisin-abut{
+      font-size: 30px;
+      background:#723421;
+      color:#fff;
+      padding:7px 10px 7px 10px;
+      text-align:center;
+      text-decoration:none;
+      text-transform:uppercase;
+      font-weight:600;
+      margin-top:20px;
+  }
+  .admisin-text{
+    font-size: 16px;
+    font-family:"Roboto";
+    color: #444444;
+    text-align:left;
+    font-weight:600;
+    padding:20px 20px 20px 20px;
+  }
+  
+  .admisin-text p{
+    font-size: 19px;
+    color: #444444;
+    margin-bottom:10px;
+  }
+  .admisin-mrg{
+      margin-top:0px !important;
+  }
+  .process-frm{	
+      padding:20px 20px 20px 20px;
+      font-size: 16px;
+      font-family:"Roboto";
+  }
+  .proces-frm1{
+      padding:10px 10px 10px 10px;
+  }
+  .slid-numbr{
+      font-family:"Roboto";
+      font-size:25px;
+      color:#c74b18;
+      font-weight:600;
+      padding:0px 0px 5px 0px;
+  }
+  .slid-hed{
+      font-family:"Cormorant";
+      font-size:30px;
+      color:#c74b18;
+      font-weight:600;
+      padding:0px 0px 5px 0px;
+  }
+  .slid-txt{
+      font-family:"Roboto";
+      font-size:16px;
+      color:rgb(85, 85, 85);
+      line-height:22px;
+  }
+  .buton-center{
+      text-align:center;
+  }
+  
+  .owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  }
+  .owl-nav button.owl-prev {
+  left: -21px;
+  }
+  .owl-nav button.owl-next {
+  right: -21px;
+  }
+  /*
+  .owl-dots {
+  text-align: center;
+  padding-top: 15px;
+  }
+  .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+  }
+  .owl-dots button.owl-dot.active {
+  background-color: #000;
+  }
+  .owl-dots button.owl-dot:focus {
+  outline: none;
+  }
+  */
+  .owl-nav button {
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.38) !important;
+  }
+  span {
+  font-size: 70px;    
+  position: relative;
+  top: -5px;
+  }
+  .owl-nav button:focus {
+  outline: none;
+  }
+  .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+      background:#c54a20 !important;
+      color:#fff !important;
+  }
+  .mrgtop{
+      margin-top:10px !important;
+  }
+  
+  .accordion-container .accordion-title {
+    font-family:"Roboto";
+    position: relative;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    background-color: #e3e2e1;
+    font-size: 18px;
+    font-weight: 500;
+    color: #c74a1b;
+    cursor: pointer;
+    border-bottom:2px solid #fff;
+  }
+  .accordion-container .accordion-title:hover,
+  .accordion-container .accordion-title:active,
+  .accordion-title.open { 
+    background-color: #e2dbca;
+    color:#723421;
+  }
+  .accordion-container .accordion-title::after {
+    content: "";
+    position: absolute;
+    top: 19px;
+    right: 25px;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-top-color: #c74a1b;
+  }
+  .accordion-container .accordion-title.open::after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    border: 8px solid transparent;
+    border-bottom-color: #723421;
+  }
+  
+  /*CSS for CodePen*/
+  
+  .accordion-content {
+    padding: 10px 20px 10px 20px;
+    border: 0px solid #0079c1;
+    border-left:1px solid #e3e2e1;
+    border-right:1px solid #e3e2e1;
+    border-bottom:1px solid #e3e2e1;
+  }
+  .accordion-content  p{
+    font-family:"Roboto";
+    font-size:15px;
+    margin-bottom:0px;
+  }
+  
+  .accordion-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  
+  
+  /* admission 2023 new page css end */
+  
+  @media (max-width: 320px) {
+      .caption_form{
+          width:100%;
+      }
+      .appoint_form {
+          width:100%;
+          padding:16px 20px 20px 20px;
+      }
+      .showcase li .caption{
+          top: auto;
+          right: 0px;
+          padding:12px;
+          position:relative;
+      }
+      .admisin-frm{
+          margin-top:30px;
+      }
+      
+  }
+  @media (max-width: 360px) {	
+      .caption_form{
+          width:100%;
+      }
+      .appoint_form {
+          width:100%;
+          padding:16px 20px 20px 20px;
+      }
+      .showcase li .caption{
+          top: auto;
+          right: 0px;
+          padding:12px;
+          position:relative;
+      }
+      .admisin-frm{
+          margin-top:30px;
+      }
+  }
+  
+  @media (max-width: 375px) {
+      .caption_form{
+          width:100%;
+      }
+      .appoint_form {
+          width:100%;
+          padding:16px 20px 20px 20px;
+      }
+      .showcase li .caption{
+          top: auto;
+          right: 0px;
+          padding:12px;
+          position:relative;
+      }
+      .admisin-frm{
+          margin-top:30px;
+      }
+      
+  }
+  
+  @media (max-width: 384px) {
+      
+      .caption_form{
+          width:100%;
+      }
+      .appoint_form {
+          width:100%;
+          padding:16px 20px 20px 20px;
+      }
+      .showcase li .caption{
+          top: auto;
+          right: 0px;
+          padding:12px;
+          position:relative;
+      }
+      .admisin-frm{
+          margin-top:30px;
+      }
+      
+  }
+  
+  @media (max-width: 390px) {	
+      .caption_form{
+          width:100%;
+      }
+      .appoint_form {
+          width:100%;
+          padding:16px 20px 20px 20px;
+      }
+      .showcase li .caption{
+          top: auto;
+          right: 0px;
+          padding:12px;
+          position:relative;
+      }
+      .admisin-frm{
+          margin-top:30px;
+      }
+      
+  }
+  
+  @media (max-width: 412px) {
+      .caption_form{
+          width:100%;
+      }
+      .appoint_form {
+          width:100%;
+          padding:16px 20px 20px 20px;
+      }
+      .admisin-frm{
+          margin-top:30px;
+      }
+      .showcase li .caption{
+          width:100%;
+          top: -165px !important;
+          right: 0px;
+          padding:12px;
+          position:relative;
+      }
+      .caption_content{
+          width:100%;
+          height:160px;
+      }
+      .caption_content h1{
+          padding-top:0px;
+          font-size:30px;
+          text-align:center;
+          padding-bottom:0px;
+          line-height:30px;
+      }
+      .caption_content p{
+          font-size:16px;
+          line-height:22px;
+          text-align:center;
+      }
+  }
+  
+  @media (max-width: 414px) {	
+      .caption_form{
+          width:100%;
+      }
+      .appoint_form {
+          width:100%;
+          padding:16px 20px 20px 20px;
+      }
+      .admisin-frm{
+          margin-top:30px;
+      }
+      .showcase li .caption{
+          width:100%;
+          top: -165px !important;
+          right: 0px;
+          padding:12px;
+          position:relative;
+      }
+      .caption_content{
+          width:100%;
+          height:160px;
+      }
+      .caption_content h1{
+          padding-top:0px;
+          font-size:30px;
+          text-align:center;
+          padding-bottom:0px;
+          line-height:30px;
+      }
+      .caption_content p{
+          font-size:16px;
+          line-height:22px;
+          text-align:center;
+      }	
+      
+  }
+  
+  @media (max-width: 428px) {	
+      .caption_form{
+          width:100%;
+      }
+      .appoint_form {
+          width:100%;
+          padding:16px 20px 20px 20px;
+      }
+      .admisin-frm{
+          margin-top:30px;
+      }
+      .showcase li .caption{
+          width:100%;
+          top: -165px !important;
+          right: 0px;
+          padding:12px;
+          position:relative;
+      }
+      .caption_content{
+          width:100%;
+          height:162px;
+      }
+      .caption_content h1{
+          padding-top:0px;
+          font-size:30px;
+          text-align:center;
+          padding-bottom:0px;
+          line-height:30px;
+      }
+      .caption_content p{
+          font-size:16px;
+          line-height:22px;
+          text-align:center;
+      }	
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+      header .top-header ul.top-nav li{
+        padding: 0 9px !important;
+        position: relative;
+      }
+      .main-header, header .top-header {
+        padding-left: 10px  !important;
+        padding-right: 10px  !important;
+      }
+      .showcase li img {
+        max-width: 170%;
+      }
+      .showcase{
+          height:510px;
+      }
+  }
+  @media (min-width: 800px) and (max-width: 1440px) {
+      .showcase li img{
+          height:385px !important;
+      }
+  }
+  
+  
+  
+  
+  
+  
